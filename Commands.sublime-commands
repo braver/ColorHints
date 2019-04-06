@@ -1,0 +1,17 @@
+[
+	{
+		"caption": "Toggle Spell Check",
+		"command": "toggle_setting",
+		"args": { "setting": "spell_check" }
+	},
+	{
+		"caption": "Reset MiniDiff",
+		"command": "reset_minidiff",
+		"args": { }
+	},
+	{
+		"caption": "Get Color",
+		"command": "get_color_at_cursor",
+		"args": { }
+	}
+]
