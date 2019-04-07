@@ -87,7 +87,8 @@ class ColorHintAtCursor(sublime_plugin.TextCommand):
                                       sublime.LAYOUT_INLINE)
 
 
-class ClearColorHints(sublime_plugin.EventListener):
+class ClearColorHints(sublime_plugin.ViewEventListener):
 
-    def on_modified_async(self, view):
-        view.erase_phantoms('color_hints')
+    def on_modified_async(self):
+        print('clearing ' + self.view.file_name())
+        self.view.erase_phantoms('color_hints')
