@@ -70,7 +70,7 @@ def get_cursor_color(self, region):
     return color, alpha, alpha_dec
 
 
-class GetColorAtCursor(sublime_plugin.TextCommand):
+class ColorHintAtCursor(sublime_plugin.TextCommand):
 
     def run(self, paths):
         self.view.erase_phantoms('color_hints')
@@ -78,7 +78,7 @@ class GetColorAtCursor(sublime_plugin.TextCommand):
         for sel in sels:
             color = get_cursor_color(self, sel)
             print(color)
-            if color:
+            if color[0] is not None:
                 line_end = self.view.line(sel).end()
                 region = sublime.Region(line_end, line_end)
                 self.view.add_phantom('color_hints',
