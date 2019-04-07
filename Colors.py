@@ -70,18 +70,20 @@ def get_cursor_color(view, region):
     return color, alpha, alpha_dec
 
 
-def render_hints(view):
-    view.erase_phantoms('color_hints')
+def render_hints(view, phantom_set):
     sels = view.sel()
+    ps = []
     for sel in sels:
         color = get_cursor_color(view, sel)
         if color[0] is not None:
             line_end = view.line(sel).end()
             region = sublime.Region(line_end, line_end)
-            view.add_phantom('color_hints',
-                             region,
-                             TEMPLATE.format(color=color[0]),
-                             sublime.LAYOUT_INLINE)
+            ps.append(sublime.Phantom(
+                    region,
+                    TEMPLATE.format(color=color[0]),
+                    sublime.LAYOUT_INLINE))
+
+    phantom_set.update(ps)
 
 
 class ColorHintAtCursor(sublime_plugin.TextCommand):
@@ -92,11 +94,9 @@ class ColorHintAtCursor(sublime_plugin.TextCommand):
 
 class ShowColorHints(sublime_plugin.ViewEventListener):
 
+    def __init__(self, view):
+        self.view = view
+        self.phantom_set = sublime.PhantomSet(view, 'color_hints')
+
     def on_selection_modified_async(self):
-        render_hints(self.view)
-
-
-class ClearColorHints(sublime_plugin.ViewEventListener):
-
-    def on_modified_async(self):
-        self.view.erase_phantoms('color_hints')
+        render_hints(self.view, self.phantom_set)
