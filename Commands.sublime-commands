@@ -1,7 +1,15 @@
 [
 	{
 		"caption": "Color Hint",
-		"command": "color_hint_at_cursor",
+		"command": "manual_color_hint",
 		"args": { }
-	}
+	},
+    {
+        "caption": "Preferences: ColorHints Settings",
+        "command": "edit_settings", "args":
+        {
+            "base_file": "${packages}/ColorHints/ColorHints.sublime-settings",
+            "default": "// ColorHints Settings - User\n{\n\t$0\n}\n"
+        }
+    }
 ]

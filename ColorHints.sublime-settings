@@ -1,0 +1,7 @@
+{
+    // When to show live hints
+    // - always
+    // - never
+    // - in scope selector, eg 'source.css, source.scss, source.sass, source.less, text.html'
+    "live_hints": "always"
+}
