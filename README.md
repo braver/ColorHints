@@ -9,6 +9,12 @@ Currently the alpha (opacity) value is ignored because in these small samples, a
 
 Thanks to [@facelessuser](https://github.com/facelessuser) for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. 
 
+## Related color utilities
+
+This plugin just does what it says on the box: display color hints. Other packages do other nifty things with colors:
+
+- Convert colors between RGB, Hex, HSL, etc: [Color Convert](https://packagecontrol.io/packages/Color%20Convert)
+- Integrate with OS native [Color picker](https://packagecontrol.io/packages/ColorPicker)
 
 ## Test: Pantone colors of the year..
 
