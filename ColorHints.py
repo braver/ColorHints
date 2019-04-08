@@ -33,7 +33,7 @@ def get_cursor_color(view, region):
         end = visible.end()
     bfr = view.substr(sublime.Region(start, end))
     ref = point - start
-    use_hex_argb = False
+    use_hex_argb = True
     allowed_colors = util.ALL
     for m in util.COLOR_RE.finditer(bfr):
         if ref >= m.start(0) and ref < m.end(0):
@@ -65,7 +65,7 @@ def get_cursor_color(view, region):
                 continue
             color, alpha, alpha_dec = util.translate_color(
                                                         m,
-                                                        bool(use_hex_argb))
+                                                        use_hex_argb)
             break
     return color, alpha, alpha_dec
 
