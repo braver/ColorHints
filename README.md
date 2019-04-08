@@ -7,7 +7,7 @@ Call up an inline color box displaying the color at the cursor(s). Live hints ca
 
 Currently the alpha (opacity) value is ignored because in these small samples, at low opacity, everything looks alike. 
 
-Thanks to @facelessuser for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. 
+Thanks to [@facelessuser](https://github.com/facelessuser) for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. 
 
 
 ## Test: Pantone colors of the year..
