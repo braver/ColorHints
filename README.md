@@ -1,6 +1,14 @@
 # ColorHints
 Inline color hints for Sublime Text
 
+![](https://raw.githubusercontent.com/braver/ColorHints/master/Colors.gif)
+
+Call up an inline color box displaying the color at the cursor(s). Live hints can be enabled always, never, or just in specific languages (via [scope selectors](https://www.sublimetext.com/docs/3/selectors.html)).
+
+Currently the alpha (opacity) value is ignored because in these small samples, at low opacity, everything looks alike. 
+
+Thanks to @facelessuser for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. 
+
 
 ## Test: Pantone colors of the year..
 
