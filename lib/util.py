@@ -4,15 +4,11 @@ ColorHelper utils
 Copyright (c) 2015 - 2017 Isaac Muse <isaacmuse@gmail.com>
 License: MIT
 """
-import sublime
 import re
 import decimal
 from . import csscolors, pantone
 from .rgba import RGBA, round_int, clamp
-from textwrap import dedent
-import platform
 
-LINE_HEIGHT_WORKAROUND = platform.system() == "Windows"
 FLOAT_TRIM_RE = re.compile(r'^(?P<keep>\d+)(?P<trash>\.0+|(?P<keep2>\.\d*[1-9])0+)$')
 
 COLOR_PARTS = {
@@ -38,98 +34,12 @@ COMPLETE = r'''
     \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})
 ''' % COLOR_PARTS
 
-INCOMPLETE = r'''
-    (?P<hash>\#) |
-    \b(?P<rgb_open>rgb\() |
-    \b(?P<rgba_open>rgba\() |
-    \b(?P<hsl_open>hsl\() |
-    \b(?P<hsla_open>hsla\() |
-    \b(?P<hwb_open>hwb\() |
-    \b(?P<gray_open>hwb\()
-    '''
-
 COLOR_NAMES = r'\b(?P<webcolors>%s)\b(?!\()' % '|'.join([name for name in csscolors.name2hex_map.keys()])
-
-TAG_HTML_RE = re.compile(
-    br'''(?x)(?i)
-    (?:
-        (?P<comments>(\r?\n?\s*)<!--[\s\S]*?-->(\s*)(?=\r?\n)|<!--[\s\S]*?-->)|
-        (?P<style><style((?:\s+[\w\-:]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^>\s]+))?)*)\s*>(?P<css>.*?)<\/style[^>]*>) |
-        (?P<open><[\w\:\.\-]+)
-        (?P<attr>(?:\s+[\w\-:]+(?:\s*=\s*(?:"[^"]*"|'[^']*'))?)*)
-        (?P<close>\s*(?:\/?)>)
-    )
-    ''',
-    re.DOTALL
-)
-
-TAG_STYLE_ATTR_RE = re.compile(
-    br'''(?x)
-    (?P<attr>
-        (?:
-            \s+style
-            (?:\s*=\s*(?P<content>"[^"]*"|'[^']*'))
-        )
-    )
-    ''',
-    re.DOTALL
-)
 
 HEX_IS_GRAY_RE = re.compile(r'(?i)^#([0-9a-f]{2})\1\1')
 HEX_COMPRESS_RE = re.compile(r'(?i)^#([0-9a-f])\1([0-9a-f])\2([0-9a-f])\3(?:([0-9a-f])\4)?$')
 
 COLOR_RE = re.compile(r'(?x)(?i)(?<![@#$.\-_])(?:%s|%s)(?![@#$.\-_])' % (COMPLETE, COLOR_NAMES))
-COLOR_ALL_RE = re.compile(r'(?x)(?i)(?<![@#$.\-_])(?:%s|%s|%s)(?![@#$.\-_])' % (COMPLETE, COLOR_NAMES, INCOMPLETE))
-INDEX_ALL_RE = re.compile((r'(?x)(?i)(?<![@#$.\-_])(?:%s|%s)(?![@#$.\-_])' % (COMPLETE, COLOR_NAMES)).encode('utf-8'))
-
-ADD_CSS = dedent(
-    '''
-    div.color-helper { margin: 0; padding: 0.5rem; }
-    .color-helper .small { font-size: 0.8rem; }
-    .color-helper .alpha { text-decoration: underline; }
-    '''
-)
-
-WRAPPER_CLASS = "color-helper content"
-
-CSS3 = ("webcolors", "hex", "hex_compressed", "rgb", "rgba", "hsl", "hsla")
-CSS4 = CSS3 + ("gray", "graya", "hwb", "hwba", "hexa", "hexa_compressed")
-ALL = CSS4
-
-
-def log(*args):
-    """Log."""
-
-    text = ['\nColorHints: ']
-    for arg in args:
-        text.append(str(arg))
-    text.append('\n')
-    print(''.join(text))
-
-
-def debug(*args):
-    """Log if debug enabled."""
-
-    if sublime.load_settings("color_helper.sublime-settings").get('debug', False):
-        log(*args)
-
-
-def get_line_height(view):
-    """Get the line height."""
-
-    height = view.line_height()
-    settings = sublime.load_settings("color_helper.sublime-settings")
-
-    return int((height / 2.0) if LINE_HEIGHT_WORKAROUND and settings.get('line_height_workaround', False) else height)
-
-
-def color_picker_available():
-    """Check if color picker is available."""
-
-    s = sublime.load_settings('color_helper_share.sublime-settings')
-    s.set('color_pick_return', None)
-    sublime.run_command('color_pick_api_is_available', {'settings': 'color_helper_share.sublime-settings'})
-    return s.get('color_pick_return', None)
 
 
 def fmt_float(f, p=0):
@@ -145,91 +55,6 @@ def fmt_float(f, p=0):
         if m.group('keep2'):
             string += m.group('keep2')
     return string
-
-
-def get_rules(view):
-    """Get auto-popup scope rule."""
-
-    rules = view.settings().get("color_helper.scan")
-
-    return rules if rules is not None and rules.get("enabled", False) else None
-
-
-def get_scope(view, rules, skip_sel_check=False):
-    """Get auto-popup scope rule."""
-
-    scopes = None
-    if rules is not None:
-        scopes = ','.join(rules.get('scan_scopes', []))
-        sels = view.sel()
-        if not skip_sel_check:
-            if len(sels) == 0 or not scopes or view.score_selector(sels[0].begin(), scopes) == 0:
-                scopes = None
-    return scopes
-
-
-def get_scope_completion(view, rules, skip_sel_check=False):
-    """Get additional auto-popup scope rules for incomplete colors only."""
-
-    scopes = None
-    if rules is not None:
-        scopes = ','.join(rules.get('scan_completion_scopes', []))
-        sels = view.sel()
-        if not skip_sel_check:
-            if len(sels) == 0 or not scopes or view.score_selector(sels[0].begin(), scopes) == 0:
-                scopes = None
-    return scopes
-
-
-def get_favs():
-    """Get favorites object."""
-
-    bookmark_colors = sublime.load_settings('color_helper.palettes').get("favorites", [])
-    return {"name": "Favorites", "colors": bookmark_colors}
-
-
-def save_palettes(palettes, favs=False):
-    """Save palettes."""
-
-    s = sublime.load_settings('color_helper.palettes')
-    if favs:
-        s.set('favorites', palettes)
-    else:
-        s.set('palettes', palettes)
-    sublime.save_settings('color_helper.palettes')
-
-
-def save_project_palettes(window, palettes):
-    """Save project palettes."""
-
-    data = window.project_data()
-    if data is None:
-        data = {'color_helper_palettes': palettes}
-    else:
-        data['color_helper_palettes'] = palettes
-    window.set_project_data(data)
-
-
-def get_palettes():
-    """Get palettes."""
-
-    return sublime.load_settings('color_helper.palettes').get("palettes", [])
-
-
-def get_project_palettes(window):
-    """Get project palettes."""
-    data = window.project_data()
-    if data is None:
-        data = {}
-    return data.get('color_helper_palettes', [])
-
-
-def get_project_folders(window):
-    """Get project folder."""
-    data = window.project_data()
-    if data is None:
-        data = {'folders': [{'path': f} for f in window.folders()]}
-    return data.get('folders', [])
 
 
 def is_gray(color):

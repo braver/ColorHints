@@ -36,39 +36,9 @@ def get_cursor_color(view, region):
         end = visible.end()
     bfr = view.substr(sublime.Region(start, end))
     ref = point - start
-    use_hex_argb = True
-    allowed_colors = util.ALL
     for m in util.COLOR_RE.finditer(bfr):
         if ref >= m.start(0) and ref < m.end(0):
-            if m.group('hex_compressed') and 'hex_compressed' not in allowed_colors:  # noqa 501
-                continue
-            elif m.group('hexa_compressed') and 'hexa_compressed' not in allowed_colors:  # noqa 501
-                continue
-            elif m.group('hex') and 'hex' not in allowed_colors:
-                continue
-            elif m.group('hexa') and 'hexa' not in allowed_colors:
-                continue
-            elif m.group('rgb') and 'rgb' not in allowed_colors:
-                continue
-            elif m.group('rgba') and 'rgba' not in allowed_colors:
-                continue
-            elif m.group('gray') and 'gray' not in allowed_colors:
-                continue
-            elif m.group('graya') and 'graya' not in allowed_colors:
-                continue
-            elif m.group('hsl') and 'hsl' not in allowed_colors:
-                continue
-            elif m.group('hsla') and 'hsla' not in allowed_colors:
-                continue
-            elif m.group('hwb') and 'hwb' not in allowed_colors:
-                continue
-            elif m.group('hwba') and 'hwba' not in allowed_colors:
-                continue
-            elif m.group('webcolors') and 'webcolors' not in allowed_colors:  # noqa 501
-                continue
-            color, alpha, alpha_dec = util.translate_color(
-                                                        m,
-                                                        use_hex_argb)
+            color, alpha, alpha_dec = util.translate_color(m, True)
             break
     return color, alpha, alpha_dec
 

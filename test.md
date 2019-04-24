@@ -18,7 +18,6 @@ rgb(136,176,75)
 2016 - Rose Quartz
 pantone 13-1520 TCX
 rgb(247,202,201)
-hwb(148, 0%, 0%)
 #F7CAC9
 
 2016 - Serenity
