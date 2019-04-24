@@ -166,6 +166,6 @@ def hex2name(value):
 
 
 def name2hex(name):
-    """Convert CSS hex to webcolor name."""
+    """Convert webcolor name to CSS hex."""
 
     return name2hex_map.get(name.lower(), None)
