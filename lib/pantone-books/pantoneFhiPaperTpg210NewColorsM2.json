@@ -1,0 +1,2109 @@
+{
+    "data": {
+        "getBook": {
+            "id": "pantoneFhiPaperTpg210NewColorsM2",
+            "colors": [
+                {
+                    "code": "11-4001 TPG",
+                    "name": "Brilliant White",
+                    "rgb": {
+                        "r": 239,
+                        "g": 240,
+                        "b": 241
+                    },
+                    "positionInBook": 0
+                },
+                {
+                    "code": "11-4801 TPG",
+                    "name": "Tofu",
+                    "rgb": {
+                        "r": 234,
+                        "g": 230,
+                        "b": 218
+                    },
+                    "positionInBook": 1
+                },
+                {
+                    "code": "11-0607 TPG",
+                    "name": "Sugar Swizzle",
+                    "rgb": {
+                        "r": 243,
+                        "g": 239,
+                        "b": 231
+                    },
+                    "positionInBook": 2
+                },
+                {
+                    "code": "11-0608 TPG",
+                    "name": "Coconut Milk",
+                    "rgb": {
+                        "r": 240,
+                        "g": 237,
+                        "b": 229
+                    },
+                    "positionInBook": 3
+                },
+                {
+                    "code": "11-4302 TPG",
+                    "name": "Cannoli Cream",
+                    "rgb": {
+                        "r": 242,
+                        "g": 240,
+                        "b": 227
+                    },
+                    "positionInBook": 4
+                },
+                {
+                    "code": "11-1302 TPG",
+                    "name": "Sea Salt",
+                    "rgb": {
+                        "r": 241,
+                        "g": 233,
+                        "b": 224
+                    },
+                    "positionInBook": 5
+                },
+                {
+                    "code": "11-0110 TPG",
+                    "name": "Buttercream",
+                    "rgb": {
+                        "r": 240,
+                        "g": 227,
+                        "b": 206
+                    },
+                    "positionInBook": 6
+                },
+                {
+                    "code": "11-0106 TPG",
+                    "name": "Sweet Corn",
+                    "rgb": {
+                        "r": 242,
+                        "g": 237,
+                        "b": 215
+                    },
+                    "positionInBook": 7
+                },
+                {
+                    "code": "11-0515 TPG",
+                    "name": "Lemon Icing",
+                    "rgb": {
+                        "r": 244,
+                        "g": 235,
+                        "b": 200
+                    },
+                    "positionInBook": 8
+                },
+                {
+                    "code": "13-0919 TPG",
+                    "name": "Soybean",
+                    "rgb": {
+                        "r": 215,
+                        "g": 196,
+                        "b": 158
+                    },
+                    "positionInBook": 9
+                },
+                {
+                    "code": "13-1105 TPG",
+                    "name": "Brown Rice",
+                    "rgb": {
+                        "r": 200,
+                        "g": 188,
+                        "b": 164
+                    },
+                    "positionInBook": 10
+                },
+                {
+                    "code": "14-1208 TPG",
+                    "name": "Irish Cream",
+                    "rgb": {
+                        "r": 194,
+                        "g": 173,
+                        "b": 146
+                    },
+                    "positionInBook": 11
+                },
+                {
+                    "code": "12-4301 TPG",
+                    "name": "Almond Milk",
+                    "rgb": {
+                        "r": 217,
+                        "g": 208,
+                        "b": 190
+                    },
+                    "positionInBook": 12
+                },
+                {
+                    "code": "12-0110 TPG",
+                    "name": "Pistachio Shell",
+                    "rgb": {
+                        "r": 218,
+                        "g": 209,
+                        "b": 187
+                    },
+                    "positionInBook": 13
+                },
+                {
+                    "code": "11-0623 TPG",
+                    "name": "Yellow Pear",
+                    "rgb": {
+                        "r": 239,
+                        "g": 236,
+                        "b": 156
+                    },
+                    "positionInBook": 14
+                },
+                {
+                    "code": "12-0742 TPG",
+                    "name": "Lemon Verbena",
+                    "rgb": {
+                        "r": 246,
+                        "g": 234,
+                        "b": 123
+                    },
+                    "positionInBook": 15
+                },
+                {
+                    "code": "12-0646 TPG",
+                    "name": "Celandine",
+                    "rgb": {
+                        "r": 240,
+                        "g": 227,
+                        "b": 102
+                    },
+                    "positionInBook": 16
+                },
+                {
+                    "code": "13-0646 TPG",
+                    "name": "Meadowlark",
+                    "rgb": {
+                        "r": 236,
+                        "g": 219,
+                        "b": 84
+                    },
+                    "positionInBook": 17
+                },
+                {
+                    "code": "13-0644 TPG",
+                    "name": "Golden Kiwi",
+                    "rgb": {
+                        "r": 247,
+                        "g": 225,
+                        "b": 74
+                    },
+                    "positionInBook": 18
+                },
+                {
+                    "code": "13-0849 TPG",
+                    "name": "Habañero Gold",
+                    "rgb": {
+                        "r": 255,
+                        "g": 214,
+                        "b": 83
+                    },
+                    "positionInBook": 19
+                },
+                {
+                    "code": "13-0851 TPG",
+                    "name": "Minion Yellow",
+                    "rgb": {
+                        "r": 255,
+                        "g": 215,
+                        "b": 99
+                    },
+                    "positionInBook": 20
+                },
+                {
+                    "code": "14-0952 TPG",
+                    "name": "Spicy Mustard",
+                    "rgb": {
+                        "r": 219,
+                        "g": 175,
+                        "b": 73
+                    },
+                    "positionInBook": 21
+                },
+                {
+                    "code": "17-0949 TPG",
+                    "name": "Chai Tea",
+                    "rgb": {
+                        "r": 185,
+                        "g": 137,
+                        "b": 61
+                    },
+                    "positionInBook": 22
+                },
+                {
+                    "code": "15-0960 TPG",
+                    "name": "Mango Mojito",
+                    "rgb": {
+                        "r": 218,
+                        "g": 160,
+                        "b": 61
+                    },
+                    "positionInBook": 23
+                },
+                {
+                    "code": "15-1051 TPG",
+                    "name": "Golden Orange",
+                    "rgb": {
+                        "r": 215,
+                        "g": 146,
+                        "b": 50
+                    },
+                    "positionInBook": 24
+                },
+                {
+                    "code": "15-1045 TPG",
+                    "name": "Autumn Blaze",
+                    "rgb": {
+                        "r": 219,
+                        "g": 147,
+                        "b": 50
+                    },
+                    "positionInBook": 25
+                },
+                {
+                    "code": "18-1049 TPG",
+                    "name": "Thai Curry",
+                    "rgb": {
+                        "r": 175,
+                        "g": 111,
+                        "b": 52
+                    },
+                    "positionInBook": 26
+                },
+                {
+                    "code": "18-1050 TPG",
+                    "name": "Honey Ginger",
+                    "rgb": {
+                        "r": 179,
+                        "g": 110,
+                        "b": 54
+                    },
+                    "positionInBook": 27
+                },
+                {
+                    "code": "13-0946 TPG",
+                    "name": "Jurassic Gold",
+                    "rgb": {
+                        "r": 232,
+                        "g": 170,
+                        "b": 84
+                    },
+                    "positionInBook": 28
+                },
+                {
+                    "code": "14-1052 TPG",
+                    "name": "Kumquat",
+                    "rgb": {
+                        "r": 252,
+                        "g": 175,
+                        "b": 90
+                    },
+                    "positionInBook": 29
+                },
+                {
+                    "code": "15-1151 TPG",
+                    "name": "Iceland Poppy",
+                    "rgb": {
+                        "r": 245,
+                        "g": 157,
+                        "b": 77
+                    },
+                    "positionInBook": 30
+                },
+                {
+                    "code": "15-1262 TPG",
+                    "name": "Carrot Curl",
+                    "rgb": {
+                        "r": 255,
+                        "g": 139,
+                        "b": 39
+                    },
+                    "positionInBook": 31
+                },
+                {
+                    "code": "15-1264 TPG",
+                    "name": "Turmeric",
+                    "rgb": {
+                        "r": 255,
+                        "g": 132,
+                        "b": 42
+                    },
+                    "positionInBook": 32
+                },
+                {
+                    "code": "15-1335 TPG",
+                    "name": "Tangelo",
+                    "rgb": {
+                        "r": 255,
+                        "g": 127,
+                        "b": 40
+                    },
+                    "positionInBook": 33
+                },
+                {
+                    "code": "17-1145 TPG",
+                    "name": "Autumn Maple",
+                    "rgb": {
+                        "r": 200,
+                        "g": 108,
+                        "b": 50
+                    },
+                    "positionInBook": 34
+                },
+                {
+                    "code": "15-1040 TPG",
+                    "name": "Iced Coffee",
+                    "rgb": {
+                        "r": 182,
+                        "g": 149,
+                        "b": 115
+                    },
+                    "positionInBook": 35
+                },
+                {
+                    "code": "17-1142 TPG",
+                    "name": "Argan Oil",
+                    "rgb": {
+                        "r": 145,
+                        "g": 98,
+                        "b": 77
+                    },
+                    "positionInBook": 36
+                },
+                {
+                    "code": "16-1438 TPG",
+                    "name": "Meerkat",
+                    "rgb": {
+                        "r": 169,
+                        "g": 117,
+                        "b": 79
+                    },
+                    "positionInBook": 37
+                },
+                {
+                    "code": "17-1052 TPG",
+                    "name": "Roasted Pecan",
+                    "rgb": {
+                        "r": 153,
+                        "g": 98,
+                        "b": 58
+                    },
+                    "positionInBook": 38
+                },
+                {
+                    "code": "18-1155 TPG",
+                    "name": "Sugar Almond",
+                    "rgb": {
+                        "r": 147,
+                        "g": 93,
+                        "b": 59
+                    },
+                    "positionInBook": 39
+                },
+                {
+                    "code": "16-1347 TPG",
+                    "name": "Peach Caramel",
+                    "rgb": {
+                        "r": 199,
+                        "g": 119,
+                        "b": 72
+                    },
+                    "positionInBook": 40
+                },
+                {
+                    "code": "16-1348 TPG",
+                    "name": "Tomato Cream",
+                    "rgb": {
+                        "r": 198,
+                        "g": 121,
+                        "b": 76
+                    },
+                    "positionInBook": 41
+                },
+                {
+                    "code": "13-1308 TPG",
+                    "name": "Brazilian Sand",
+                    "rgb": {
+                        "r": 221,
+                        "g": 204,
+                        "b": 183
+                    },
+                    "positionInBook": 42
+                },
+                {
+                    "code": "15-1020 TPG",
+                    "name": "Ginger Root",
+                    "rgb": {
+                        "r": 193,
+                        "g": 166,
+                        "b": 139
+                    },
+                    "positionInBook": 43
+                },
+                {
+                    "code": "14-1315 TPG",
+                    "name": "Hazelnut",
+                    "rgb": {
+                        "r": 211,
+                        "g": 178,
+                        "b": 150
+                    },
+                    "positionInBook": 44
+                },
+                {
+                    "code": "15-1125 TPG",
+                    "name": "Porcini",
+                    "rgb": {
+                        "r": 208,
+                        "g": 167,
+                        "b": 131
+                    },
+                    "positionInBook": 45
+                },
+                {
+                    "code": "15-1425 TPG",
+                    "name": "Fenugreek",
+                    "rgb": {
+                        "r": 196,
+                        "g": 147,
+                        "b": 111
+                    },
+                    "positionInBook": 46
+                },
+                {
+                    "code": "15-1430 TPG",
+                    "name": "Pastry Shell",
+                    "rgb": {
+                        "r": 192,
+                        "g": 142,
+                        "b": 104
+                    },
+                    "positionInBook": 47
+                },
+                {
+                    "code": "18-1028 TPG",
+                    "name": "Emperador",
+                    "rgb": {
+                        "r": 108,
+                        "g": 79,
+                        "b": 61
+                    },
+                    "positionInBook": 48
+                },
+                {
+                    "code": "16-1358 TPG",
+                    "name": "Orange Tiger",
+                    "rgb": {
+                        "r": 253,
+                        "g": 113,
+                        "b": 51
+                    },
+                    "positionInBook": 49
+                },
+                {
+                    "code": "15-1243 TPG",
+                    "name": "Papaya",
+                    "rgb": {
+                        "r": 255,
+                        "g": 162,
+                        "b": 105
+                    },
+                    "positionInBook": 50
+                },
+                {
+                    "code": "14-1241 TPG",
+                    "name": "Orange Chiffon",
+                    "rgb": {
+                        "r": 250,
+                        "g": 172,
+                        "b": 126
+                    },
+                    "positionInBook": 51
+                },
+                {
+                    "code": "13-1125 TPG",
+                    "name": "Peach Quartz",
+                    "rgb": {
+                        "r": 245,
+                        "g": 185,
+                        "b": 149
+                    },
+                    "positionInBook": 52
+                },
+                {
+                    "code": "17-1361 TPG",
+                    "name": "Scarlet Ibis",
+                    "rgb": {
+                        "r": 247,
+                        "g": 97,
+                        "b": 58
+                    },
+                    "positionInBook": 53
+                },
+                {
+                    "code": "16-1460 TPG",
+                    "name": "Dragon Fire",
+                    "rgb": {
+                        "r": 251,
+                        "g": 109,
+                        "b": 68
+                    },
+                    "positionInBook": 54
+                },
+                {
+                    "code": "16-1453 TPG",
+                    "name": "Exotic Orange",
+                    "rgb": {
+                        "r": 251,
+                        "g": 110,
+                        "b": 69
+                    },
+                    "positionInBook": 55
+                },
+                {
+                    "code": "16-1345 TPG",
+                    "name": "Sun Baked",
+                    "rgb": {
+                        "r": 214,
+                        "g": 134,
+                        "b": 106
+                    },
+                    "positionInBook": 56
+                },
+                {
+                    "code": "15-1429 TPG",
+                    "name": "Dusted Clay",
+                    "rgb": {
+                        "r": 208,
+                        "g": 123,
+                        "b": 97
+                    },
+                    "positionInBook": 57
+                },
+                {
+                    "code": "17-1345 TPG",
+                    "name": "Spice Route",
+                    "rgb": {
+                        "r": 190,
+                        "g": 98,
+                        "b": 76
+                    },
+                    "positionInBook": 58
+                },
+                {
+                    "code": "15-1520 TPG",
+                    "name": "Blooming Dahlia",
+                    "rgb": {
+                        "r": 236,
+                        "g": 151,
+                        "b": 135
+                    },
+                    "positionInBook": 59
+                },
+                {
+                    "code": "16-1548 TPG",
+                    "name": "Peach Echo",
+                    "rgb": {
+                        "r": 247,
+                        "g": 125,
+                        "b": 115
+                    },
+                    "positionInBook": 60
+                },
+                {
+                    "code": "16-1545 TPG",
+                    "name": "Coral Quartz",
+                    "rgb": {
+                        "r": 247,
+                        "g": 121,
+                        "b": 109
+                    },
+                    "positionInBook": 61
+                },
+                {
+                    "code": "17-1450 TPG",
+                    "name": "Summer Fig",
+                    "rgb": {
+                        "r": 194,
+                        "g": 84,
+                        "b": 72
+                    },
+                    "positionInBook": 62
+                },
+                {
+                    "code": "19-1224 TPG",
+                    "name": "Fondue Fudge",
+                    "rgb": {
+                        "r": 102,
+                        "g": 81,
+                        "b": 73
+                    },
+                    "positionInBook": 63
+                },
+                {
+                    "code": "19-1233 TPG",
+                    "name": "Tiramisu",
+                    "rgb": {
+                        "r": 108,
+                        "g": 80,
+                        "b": 70
+                    },
+                    "positionInBook": 64
+                },
+                {
+                    "code": "19-1234 TPG",
+                    "name": "Rocky Road",
+                    "rgb": {
+                        "r": 98,
+                        "g": 74,
+                        "b": 68
+                    },
+                    "positionInBook": 65
+                },
+                {
+                    "code": "19-1432 TPG",
+                    "name": "Chocolate Fondant",
+                    "rgb": {
+                        "r": 96,
+                        "g": 73,
+                        "b": 68
+                    },
+                    "positionInBook": 66
+                },
+                {
+                    "code": "18-1541 TPG",
+                    "name": "Brandy Brown",
+                    "rgb": {
+                        "r": 120,
+                        "g": 70,
+                        "b": 62
+                    },
+                    "positionInBook": 67
+                },
+                {
+                    "code": "19-1429 TPG",
+                    "name": "Smoked Paprika",
+                    "rgb": {
+                        "r": 114,
+                        "g": 66,
+                        "b": 59
+                    },
+                    "positionInBook": 68
+                },
+                {
+                    "code": "19-1435 TPG",
+                    "name": "Cherry Mahogany",
+                    "rgb": {
+                        "r": 113,
+                        "g": 70,
+                        "b": 64
+                    },
+                    "positionInBook": 69
+                },
+                {
+                    "code": "18-1549 TPG",
+                    "name": "Valiant Poppy",
+                    "rgb": {
+                        "r": 189,
+                        "g": 61,
+                        "b": 58
+                    },
+                    "positionInBook": 70
+                },
+                {
+                    "code": "18-1551 TPG",
+                    "name": "Aura Orange",
+                    "rgb": {
+                        "r": 184,
+                        "g": 54,
+                        "b": 59
+                    },
+                    "positionInBook": 71
+                },
+                {
+                    "code": "18-1440 TPG",
+                    "name": "Chili Oil",
+                    "rgb": {
+                        "r": 148,
+                        "g": 71,
+                        "b": 67
+                    },
+                    "positionInBook": 72
+                },
+                {
+                    "code": "18-1659 TPG",
+                    "name": "Goji Berry",
+                    "rgb": {
+                        "r": 184,
+                        "g": 51,
+                        "b": 62
+                    },
+                    "positionInBook": 73
+                },
+                {
+                    "code": "18-1653 TPG",
+                    "name": "Toreador",
+                    "rgb": {
+                        "r": 186,
+                        "g": 43,
+                        "b": 66
+                    },
+                    "positionInBook": 74
+                },
+                {
+                    "code": "18-1654 TPG",
+                    "name": "Lychee",
+                    "rgb": {
+                        "r": 187,
+                        "g": 47,
+                        "b": 67
+                    },
+                    "positionInBook": 75
+                },
+                {
+                    "code": "18-1759 TPG",
+                    "name": "Jalapeño Red",
+                    "rgb": {
+                        "r": 178,
+                        "g": 51,
+                        "b": 75
+                    },
+                    "positionInBook": 76
+                },
+                {
+                    "code": "18-1325 TPG",
+                    "name": "Spiced Apple",
+                    "rgb": {
+                        "r": 126,
+                        "g": 72,
+                        "b": 71
+                    },
+                    "positionInBook": 77
+                },
+                {
+                    "code": "19-1534 TPG",
+                    "name": "Merlot",
+                    "rgb": {
+                        "r": 122,
+                        "g": 57,
+                        "b": 62
+                    },
+                    "positionInBook": 78
+                },
+                {
+                    "code": "19-1536 TPG",
+                    "name": "Red Pear",
+                    "rgb": {
+                        "r": 128,
+                        "g": 65,
+                        "b": 69
+                    },
+                    "positionInBook": 79
+                },
+                {
+                    "code": "19-1110 TPG",
+                    "name": "Chocolate Plum",
+                    "rgb": {
+                        "r": 75,
+                        "g": 63,
+                        "b": 64
+                    },
+                    "positionInBook": 80
+                },
+                {
+                    "code": "19-1214 TPG",
+                    "name": "Chocolate Lab",
+                    "rgb": {
+                        "r": 100,
+                        "g": 75,
+                        "b": 68
+                    },
+                    "positionInBook": 81
+                },
+                {
+                    "code": "19-1215 TPG",
+                    "name": "Shaved Chocolate",
+                    "rgb": {
+                        "r": 93,
+                        "g": 73,
+                        "b": 68
+                    },
+                    "positionInBook": 82
+                },
+                {
+                    "code": "19-1419 TPG",
+                    "name": "Chicory Coffee",
+                    "rgb": {
+                        "r": 87,
+                        "g": 69,
+                        "b": 66
+                    },
+                    "positionInBook": 83
+                },
+                {
+                    "code": "12-1110 TPG",
+                    "name": "Crème de Pêche",
+                    "rgb": {
+                        "r": 248,
+                        "g": 219,
+                        "b": 201
+                    },
+                    "positionInBook": 84
+                },
+                {
+                    "code": "13-1208 TPG",
+                    "name": "Peachy Keen",
+                    "rgb": {
+                        "r": 231,
+                        "g": 191,
+                        "b": 180
+                    },
+                    "positionInBook": 85
+                },
+                {
+                    "code": "12-2901 TPG",
+                    "name": "Morganite",
+                    "rgb": {
+                        "r": 230,
+                        "g": 210,
+                        "b": 201
+                    },
+                    "positionInBook": 86
+                },
+                {
+                    "code": "14-1803 TPG",
+                    "name": "Sepia Rose",
+                    "rgb": {
+                        "r": 218,
+                        "g": 190,
+                        "b": 186
+                    },
+                    "positionInBook": 87
+                },
+                {
+                    "code": "13-1511 TPG",
+                    "name": "Pink Salt",
+                    "rgb": {
+                        "r": 250,
+                        "g": 208,
+                        "b": 201
+                    },
+                    "positionInBook": 88
+                },
+                {
+                    "code": "13-1520 TPG",
+                    "name": "Rose Quartz",
+                    "rgb": {
+                        "r": 248,
+                        "g": 205,
+                        "b": 205
+                    },
+                    "positionInBook": 89
+                },
+                {
+                    "code": "12-1813 TPG",
+                    "name": "Mary's Rose",
+                    "rgb": {
+                        "r": 248,
+                        "g": 211,
+                        "b": 213
+                    },
+                    "positionInBook": 90
+                },
+                {
+                    "code": "12-2907 TPG",
+                    "name": "Pink Marshmallow",
+                    "rgb": {
+                        "r": 248,
+                        "g": 227,
+                        "b": 232
+                    },
+                    "positionInBook": 91
+                },
+                {
+                    "code": "13-2808 TPG",
+                    "name": "Ballet Slipper",
+                    "rgb": {
+                        "r": 240,
+                        "g": 209,
+                        "b": 216
+                    },
+                    "positionInBook": 92
+                },
+                {
+                    "code": "13-3207 TPG",
+                    "name": "Cherry Blossom",
+                    "rgb": {
+                        "r": 244,
+                        "g": 207,
+                        "b": 224
+                    },
+                    "positionInBook": 93
+                },
+                {
+                    "code": "17-1926 TPG",
+                    "name": "Fruit Dove",
+                    "rgb": {
+                        "r": 211,
+                        "g": 100,
+                        "b": 128
+                    },
+                    "positionInBook": 94
+                },
+                {
+                    "code": "18-1951 TPG",
+                    "name": "Love Potion",
+                    "rgb": {
+                        "r": 191,
+                        "g": 51,
+                        "b": 96
+                    },
+                    "positionInBook": 95
+                },
+                {
+                    "code": "17-2034 TPG",
+                    "name": "Pink Yarrow",
+                    "rgb": {
+                        "r": 206,
+                        "g": 74,
+                        "b": 126
+                    },
+                    "positionInBook": 96
+                },
+                {
+                    "code": "18-2045 TPG",
+                    "name": "Pink Peacock",
+                    "rgb": {
+                        "r": 200,
+                        "g": 62,
+                        "b": 116
+                    },
+                    "positionInBook": 97
+                },
+                {
+                    "code": "18-3014 TPG",
+                    "name": "Grape Kiss",
+                    "rgb": {
+                        "r": 128,
+                        "g": 81,
+                        "b": 112
+                    },
+                    "positionInBook": 98
+                },
+                {
+                    "code": "19-2429 TPG",
+                    "name": "Plum Caspia",
+                    "rgb": {
+                        "r": 109,
+                        "g": 61,
+                        "b": 91
+                    },
+                    "positionInBook": 99
+                },
+                {
+                    "code": "19-2420 TPG",
+                    "name": "Pickled Beet",
+                    "rgb": {
+                        "r": 88,
+                        "g": 57,
+                        "b": 75
+                    },
+                    "positionInBook": 100
+                },
+                {
+                    "code": "19-2620 TPG",
+                    "name": "Winter Bloom",
+                    "rgb": {
+                        "r": 83,
+                        "g": 58,
+                        "b": 75
+                    },
+                    "positionInBook": 101
+                },
+                {
+                    "code": "17-3240 TPG",
+                    "name": "Bodacious",
+                    "rgb": {
+                        "r": 182,
+                        "g": 108,
+                        "b": 162
+                    },
+                    "positionInBook": 102
+                },
+                {
+                    "code": "18-3120 TPG",
+                    "name": "Willowherb",
+                    "rgb": {
+                        "r": 146,
+                        "g": 81,
+                        "b": 136
+                    },
+                    "positionInBook": 103
+                },
+                {
+                    "code": "18-3340 TPG",
+                    "name": "Charisma",
+                    "rgb": {
+                        "r": 106,
+                        "g": 64,
+                        "b": 105
+                    },
+                    "positionInBook": 104
+                },
+                {
+                    "code": "17-2411 TPG",
+                    "name": "Toadstool",
+                    "rgb": {
+                        "r": 153,
+                        "g": 129,
+                        "b": 137
+                    },
+                    "positionInBook": 105
+                },
+                {
+                    "code": "16-1606 TPG",
+                    "name": "Purple Dove",
+                    "rgb": {
+                        "r": 150,
+                        "g": 134,
+                        "b": 139
+                    },
+                    "positionInBook": 106
+                },
+                {
+                    "code": "18-1705 TPG",
+                    "name": "Arctic Dusk",
+                    "rgb": {
+                        "r": 121,
+                        "g": 100,
+                        "b": 114
+                    },
+                    "positionInBook": 107
+                },
+                {
+                    "code": "18-1708 TPG",
+                    "name": "Ephemera",
+                    "rgb": {
+                        "r": 119,
+                        "g": 99,
+                        "b": 110
+                    },
+                    "positionInBook": 108
+                },
+                {
+                    "code": "14-3906 TPG",
+                    "name": "Raindrops",
+                    "rgb": {
+                        "r": 180,
+                        "g": 172,
+                        "b": 179
+                    },
+                    "positionInBook": 109
+                },
+                {
+                    "code": "17-1708 TPG",
+                    "name": "Moonscape",
+                    "rgb": {
+                        "r": 119,
+                        "g": 101,
+                        "b": 112
+                    },
+                    "positionInBook": 110
+                },
+                {
+                    "code": "18-1506 TPG",
+                    "name": "Plum Truffle",
+                    "rgb": {
+                        "r": 110,
+                        "g": 95,
+                        "b": 97
+                    },
+                    "positionInBook": 111
+                },
+                {
+                    "code": "18-3530 TPG",
+                    "name": "Lavender Crystal",
+                    "rgb": {
+                        "r": 150,
+                        "g": 110,
+                        "b": 156
+                    },
+                    "positionInBook": 112
+                },
+                {
+                    "code": "19-3425 TPG",
+                    "name": "Spiced Plum",
+                    "rgb": {
+                        "r": 115,
+                        "g": 80,
+                        "b": 121
+                    },
+                    "positionInBook": 113
+                },
+                {
+                    "code": "17-3520 TPG",
+                    "name": "Diffused Orchid",
+                    "rgb": {
+                        "r": 158,
+                        "g": 127,
+                        "b": 166
+                    },
+                    "positionInBook": 114
+                },
+                {
+                    "code": "15-3520 TPG",
+                    "name": "Crocus Petal",
+                    "rgb": {
+                        "r": 190,
+                        "g": 158,
+                        "b": 201
+                    },
+                    "positionInBook": 115
+                },
+                {
+                    "code": "18-3540 TPG",
+                    "name": "Purple Sapphire",
+                    "rgb": {
+                        "r": 118,
+                        "g": 82,
+                        "b": 139
+                    },
+                    "positionInBook": 116
+                },
+                {
+                    "code": "18-3521 TPG",
+                    "name": "Plum Jam",
+                    "rgb": {
+                        "r": 108,
+                        "g": 76,
+                        "b": 125
+                    },
+                    "positionInBook": 117
+                },
+                {
+                    "code": "18-3634 TPG",
+                    "name": "Chive Blossom",
+                    "rgb": {
+                        "r": 127,
+                        "g": 97,
+                        "b": 155
+                    },
+                    "positionInBook": 118
+                },
+                {
+                    "code": "15-3720 TPG",
+                    "name": "Lilac Breeze",
+                    "rgb": {
+                        "r": 182,
+                        "g": 161,
+                        "b": 205
+                    },
+                    "positionInBook": 119
+                },
+                {
+                    "code": "17-3640 TPG",
+                    "name": "Fairy Wren",
+                    "rgb": {
+                        "r": 152,
+                        "g": 125,
+                        "b": 180
+                    },
+                    "positionInBook": 120
+                },
+                {
+                    "code": "15-3716 TPG",
+                    "name": "Purple Rose",
+                    "rgb": {
+                        "r": 178,
+                        "g": 161,
+                        "b": 205
+                    },
+                    "positionInBook": 121
+                },
+                {
+                    "code": "16-3720 TPG",
+                    "name": "Sand Verbena",
+                    "rgb": {
+                        "r": 162,
+                        "g": 144,
+                        "b": 193
+                    },
+                    "positionInBook": 122
+                },
+                {
+                    "code": "17-3735 TPG",
+                    "name": "Sunlit Allium",
+                    "rgb": {
+                        "r": 156,
+                        "g": 139,
+                        "b": 188
+                    },
+                    "positionInBook": 123
+                },
+                {
+                    "code": "19-3750 TPG",
+                    "name": "Violet Indigo",
+                    "rgb": {
+                        "r": 79,
+                        "g": 63,
+                        "b": 104
+                    },
+                    "positionInBook": 124
+                },
+                {
+                    "code": "18-3839 TPG",
+                    "name": "Purple Corallites",
+                    "rgb": {
+                        "r": 98,
+                        "g": 85,
+                        "b": 147
+                    },
+                    "positionInBook": 125
+                },
+                {
+                    "code": "17-3929 TPG",
+                    "name": "Pale Iris",
+                    "rgb": {
+                        "r": 139,
+                        "g": 150,
+                        "b": 201
+                    },
+                    "positionInBook": 126
+                },
+                {
+                    "code": "17-3940 TPG",
+                    "name": "Iolite",
+                    "rgb": {
+                        "r": 117,
+                        "g": 126,
+                        "b": 185
+                    },
+                    "positionInBook": 127
+                },
+                {
+                    "code": "18-3950 TPG",
+                    "name": "Iris Bloom",
+                    "rgb": {
+                        "r": 98,
+                        "g": 102,
+                        "b": 163
+                    },
+                    "positionInBook": 128
+                },
+                {
+                    "code": "14-3912 TPG",
+                    "name": "Zen Blue",
+                    "rgb": {
+                        "r": 166,
+                        "g": 175,
+                        "b": 194
+                    },
+                    "positionInBook": 129
+                },
+                {
+                    "code": "15-3919 TPG",
+                    "name": "Serenity",
+                    "rgb": {
+                        "r": 149,
+                        "g": 170,
+                        "b": 211
+                    },
+                    "positionInBook": 130
+                },
+                {
+                    "code": "19-3930 TPG",
+                    "name": "Odyssey Gray",
+                    "rgb": {
+                        "r": 79,
+                        "g": 79,
+                        "b": 92
+                    },
+                    "positionInBook": 131
+                },
+                {
+                    "code": "19-3831 TPG",
+                    "name": "Maritime Blue",
+                    "rgb": {
+                        "r": 62,
+                        "g": 61,
+                        "b": 76
+                    },
+                    "positionInBook": 132
+                },
+                {
+                    "code": "18-3917 TPG",
+                    "name": "Gray Blue",
+                    "rgb": {
+                        "r": 86,
+                        "g": 95,
+                        "b": 126
+                    },
+                    "positionInBook": 133
+                },
+                {
+                    "code": "19-4055 TPG",
+                    "name": "Galaxy Blue",
+                    "rgb": {
+                        "r": 65,
+                        "g": 87,
+                        "b": 134
+                    },
+                    "positionInBook": 134
+                },
+                {
+                    "code": "16-4033 TPG",
+                    "name": "Granada Sky",
+                    "rgb": {
+                        "r": 101,
+                        "g": 133,
+                        "b": 193
+                    },
+                    "positionInBook": 135
+                },
+                {
+                    "code": "18-4048 TPG",
+                    "name": "Nebulas Blue",
+                    "rgb": {
+                        "r": 63,
+                        "g": 105,
+                        "b": 170
+                    },
+                    "positionInBook": 136
+                },
+                {
+                    "code": "19-4045 TPG",
+                    "name": "Lapis Blue",
+                    "rgb": {
+                        "r": 45,
+                        "g": 85,
+                        "b": 147
+                    },
+                    "positionInBook": 137
+                },
+                {
+                    "code": "19-4048 TPG",
+                    "name": "Baleine Blue",
+                    "rgb": {
+                        "r": 48,
+                        "g": 89,
+                        "b": 140
+                    },
+                    "positionInBook": 138
+                },
+                {
+                    "code": "17-4028 TPG",
+                    "name": "Riverside ",
+                    "rgb": {
+                        "r": 88,
+                        "g": 113,
+                        "b": 153
+                    },
+                    "positionInBook": 139
+                },
+                {
+                    "code": "14-4122 TPG",
+                    "name": "Airy Blue",
+                    "rgb": {
+                        "r": 149,
+                        "g": 184,
+                        "b": 217
+                    },
+                    "positionInBook": 140
+                },
+                {
+                    "code": "17-4033 TPG",
+                    "name": "Pacific Coast",
+                    "rgb": {
+                        "r": 91,
+                        "g": 132,
+                        "b": 177
+                    },
+                    "positionInBook": 141
+                },
+                {
+                    "code": "17-4032 TPG",
+                    "name": "Lichen Blue",
+                    "rgb": {
+                        "r": 99,
+                        "g": 141,
+                        "b": 183
+                    },
+                    "positionInBook": 142
+                },
+                {
+                    "code": "17-4029 TPG",
+                    "name": "Quiet Harbor",
+                    "rgb": {
+                        "r": 96,
+                        "g": 125,
+                        "b": 160
+                    },
+                    "positionInBook": 143
+                },
+                {
+                    "code": "18-3929 TPG",
+                    "name": "Blue Horizon",
+                    "rgb": {
+                        "r": 88,
+                        "g": 108,
+                        "b": 138
+                    },
+                    "positionInBook": 144
+                },
+                {
+                    "code": "19-4029 TPG",
+                    "name": "Navy Peony",
+                    "rgb": {
+                        "r": 57,
+                        "g": 72,
+                        "b": 104
+                    },
+                    "positionInBook": 145
+                },
+                {
+                    "code": "19-4031 TPG",
+                    "name": "Sargasso Sea",
+                    "rgb": {
+                        "r": 72,
+                        "g": 81,
+                        "b": 103
+                    },
+                    "positionInBook": 146
+                },
+                {
+                    "code": "17-4245 TPG",
+                    "name": "Ibiza Blue",
+                    "rgb": {
+                        "r": 39,
+                        "g": 127,
+                        "b": 187
+                    },
+                    "positionInBook": 147
+                },
+                {
+                    "code": "18-4250 TPG",
+                    "name": "Indigo Bunting",
+                    "rgb": {
+                        "r": 0,
+                        "g": 111,
+                        "b": 175
+                    },
+                    "positionInBook": 148
+                },
+                {
+                    "code": "19-4038 TPG",
+                    "name": "Gibraltar Sea",
+                    "rgb": {
+                        "r": 48,
+                        "g": 71,
+                        "b": 94
+                    },
+                    "positionInBook": 149
+                },
+                {
+                    "code": "19-4120 TPG",
+                    "name": "Blue Opal",
+                    "rgb": {
+                        "r": 46,
+                        "g": 71,
+                        "b": 98
+                    },
+                    "positionInBook": 150
+                },
+                {
+                    "code": "19-4034 TPG",
+                    "name": "Sailor Blue ",
+                    "rgb": {
+                        "r": 46,
+                        "g": 74,
+                        "b": 98
+                    },
+                    "positionInBook": 151
+                },
+                {
+                    "code": "19-4122 TPG",
+                    "name": "Moonlit Ocean",
+                    "rgb": {
+                        "r": 61,
+                        "g": 73,
+                        "b": 89
+                    },
+                    "positionInBook": 152
+                },
+                {
+                    "code": "19-4126 TPG",
+                    "name": "Deep Dive",
+                    "rgb": {
+                        "r": 56,
+                        "g": 82,
+                        "b": 101
+                    },
+                    "positionInBook": 153
+                },
+                {
+                    "code": "14-4320 TPG",
+                    "name": "Baltic Sea",
+                    "rgb": {
+                        "r": 122,
+                        "g": 183,
+                        "b": 220
+                    },
+                    "positionInBook": 154
+                },
+                {
+                    "code": "15-4428 TPG",
+                    "name": "Crystal Seas",
+                    "rgb": {
+                        "r": 96,
+                        "g": 177,
+                        "b": 211
+                    },
+                    "positionInBook": 155
+                },
+                {
+                    "code": "18-4538 TPG",
+                    "name": "Hawaiian Surf",
+                    "rgb": {
+                        "r": 0,
+                        "g": 127,
+                        "b": 175
+                    },
+                    "positionInBook": 156
+                },
+                {
+                    "code": "17-4429 TPG",
+                    "name": "Navagio Bay",
+                    "rgb": {
+                        "r": 63,
+                        "g": 134,
+                        "b": 163
+                    },
+                    "positionInBook": 157
+                },
+                {
+                    "code": "18-4430 TPG",
+                    "name": "Fjord Blue",
+                    "rgb": {
+                        "r": 0,
+                        "g": 116,
+                        "b": 147
+                    },
+                    "positionInBook": 158
+                },
+                {
+                    "code": "17-4530 TPG",
+                    "name": "Barrier Reef",
+                    "rgb": {
+                        "r": 0,
+                        "g": 136,
+                        "b": 165
+                    },
+                    "positionInBook": 159
+                },
+                {
+                    "code": "19-4536 TPG",
+                    "name": "Crystal Teal",
+                    "rgb": {
+                        "r": 0,
+                        "g": 104,
+                        "b": 131
+                    },
+                    "positionInBook": 160
+                },
+                {
+                    "code": "14-4315 TPG",
+                    "name": "Sea Angel",
+                    "rgb": {
+                        "r": 154,
+                        "g": 193,
+                        "b": 205
+                    },
+                    "positionInBook": 161
+                },
+                {
+                    "code": "13-4720 TPG",
+                    "name": "Tanager Turquoise",
+                    "rgb": {
+                        "r": 149,
+                        "g": 219,
+                        "b": 229
+                    },
+                    "positionInBook": 162
+                },
+                {
+                    "code": "13-5410 TPG",
+                    "name": "Iced Aqua",
+                    "rgb": {
+                        "r": 174,
+                        "g": 214,
+                        "b": 224
+                    },
+                    "positionInBook": 163
+                },
+                {
+                    "code": "14-4615 TPG",
+                    "name": "Antigua Sand",
+                    "rgb": {
+                        "r": 131,
+                        "g": 196,
+                        "b": 207
+                    },
+                    "positionInBook": 164
+                },
+                {
+                    "code": "14-4710 TPG",
+                    "name": "Tibetan Stone",
+                    "rgb": {
+                        "r": 131,
+                        "g": 197,
+                        "b": 202
+                    },
+                    "positionInBook": 165
+                },
+                {
+                    "code": "18-4630 TPG",
+                    "name": "Tahitian Tide",
+                    "rgb": {
+                        "r": 0,
+                        "g": 114,
+                        "b": 134
+                    },
+                    "positionInBook": 166
+                },
+                {
+                    "code": "19-4540 TPG",
+                    "name": "Deep Lagoon",
+                    "rgb": {
+                        "r": 24,
+                        "g": 94,
+                        "b": 111
+                    },
+                    "positionInBook": 167
+                },
+                {
+                    "code": "14-4620 TPG",
+                    "name": "Island Paradise",
+                    "rgb": {
+                        "r": 149,
+                        "g": 222,
+                        "b": 226
+                    },
+                    "positionInBook": 168
+                },
+                {
+                    "code": "13-4810 TPG",
+                    "name": "Limpet Shell",
+                    "rgb": {
+                        "r": 153,
+                        "g": 222,
+                        "b": 223
+                    },
+                    "positionInBook": 169
+                },
+                {
+                    "code": "18-5025 TPG",
+                    "name": "Quetzal Green",
+                    "rgb": {
+                        "r": 0,
+                        "g": 110,
+                        "b": 109
+                    },
+                    "positionInBook": 170
+                },
+                {
+                    "code": "19-5030 TPG",
+                    "name": "Sea Moss",
+                    "rgb": {
+                        "r": 57,
+                        "g": 80,
+                        "b": 82
+                    },
+                    "positionInBook": 171
+                },
+                {
+                    "code": "19-5230 TPG",
+                    "name": "Forest Biome",
+                    "rgb": {
+                        "r": 52,
+                        "g": 86,
+                        "b": 84
+                    },
+                    "positionInBook": 172
+                },
+                {
+                    "code": "19-5232 TPG",
+                    "name": "Rain Forest",
+                    "rgb": {
+                        "r": 55,
+                        "g": 85,
+                        "b": 80
+                    },
+                    "positionInBook": 173
+                },
+                {
+                    "code": "18-5845 TPG",
+                    "name": "Lush Meadow",
+                    "rgb": {
+                        "r": 0,
+                        "g": 117,
+                        "b": 93
+                    },
+                    "positionInBook": 174
+                },
+                {
+                    "code": "18-0330 TPG",
+                    "name": "Twist of Lime",
+                    "rgb": {
+                        "r": 92,
+                        "g": 108,
+                        "b": 67
+                    },
+                    "positionInBook": 175
+                },
+                {
+                    "code": "18-0107 TPG",
+                    "name": "Kale",
+                    "rgb": {
+                        "r": 97,
+                        "g": 119,
+                        "b": 79
+                    },
+                    "positionInBook": 176
+                },
+                {
+                    "code": "18-0220 TPG",
+                    "name": "Mayfly",
+                    "rgb": {
+                        "r": 107,
+                        "g": 109,
+                        "b": 80
+                    },
+                    "positionInBook": 177
+                },
+                {
+                    "code": "17-0530 TPG",
+                    "name": "Guacamole",
+                    "rgb": {
+                        "r": 125,
+                        "g": 127,
+                        "b": 68
+                    },
+                    "positionInBook": 178
+                },
+                {
+                    "code": "16-0545 TPG",
+                    "name": "Split Pea",
+                    "rgb": {
+                        "r": 162,
+                        "g": 159,
+                        "b": 75
+                    },
+                    "positionInBook": 179
+                },
+                {
+                    "code": "16-0543 TPG",
+                    "name": "Golden Lime",
+                    "rgb": {
+                        "r": 156,
+                        "g": 154,
+                        "b": 64
+                    },
+                    "positionInBook": 180
+                },
+                {
+                    "code": "16-0550 TPG",
+                    "name": "Lentil Sprout",
+                    "rgb": {
+                        "r": 174,
+                        "g": 168,
+                        "b": 78
+                    },
+                    "positionInBook": 181
+                },
+                {
+                    "code": "14-0340 TPG",
+                    "name": "Acid Lime",
+                    "rgb": {
+                        "r": 189,
+                        "g": 224,
+                        "b": 64
+                    },
+                    "positionInBook": 182
+                },
+                {
+                    "code": "13-0443 TPG",
+                    "name": "Love Bird",
+                    "rgb": {
+                        "r": 197,
+                        "g": 222,
+                        "b": 72
+                    },
+                    "positionInBook": 183
+                },
+                {
+                    "code": "13-0651 TPG",
+                    "name": "Evening Primrose",
+                    "rgb": {
+                        "r": 211,
+                        "g": 224,
+                        "b": 49
+                    },
+                    "positionInBook": 184
+                },
+                {
+                    "code": "17-1314 TPG",
+                    "name": "Sepia Tint",
+                    "rgb": {
+                        "r": 142,
+                        "g": 122,
+                        "b": 102
+                    },
+                    "positionInBook": 185
+                },
+                {
+                    "code": "17-1115 TPG",
+                    "name": "Petrified Oak",
+                    "rgb": {
+                        "r": 143,
+                        "g": 124,
+                        "b": 100
+                    },
+                    "positionInBook": 186
+                },
+                {
+                    "code": "17-0630 TPG",
+                    "name": "Tree House",
+                    "rgb": {
+                        "r": 155,
+                        "g": 143,
+                        "b": 119
+                    },
+                    "positionInBook": 187
+                },
+                {
+                    "code": "17-1108 TPG",
+                    "name": "Winter Twig",
+                    "rgb": {
+                        "r": 153,
+                        "g": 143,
+                        "b": 127
+                    },
+                    "positionInBook": 188
+                },
+                {
+                    "code": "16-1103 TPG",
+                    "name": "Pure Cashmere",
+                    "rgb": {
+                        "r": 177,
+                        "g": 166,
+                        "b": 153
+                    },
+                    "positionInBook": 189
+                },
+                {
+                    "code": "17-1105 TPG",
+                    "name": "Roasted Cashew",
+                    "rgb": {
+                        "r": 149,
+                        "g": 137,
+                        "b": 126
+                    },
+                    "positionInBook": 190
+                },
+                {
+                    "code": "19-0823 TPG",
+                    "name": "Crocodile",
+                    "rgb": {
+                        "r": 100,
+                        "g": 90,
+                        "b": 81
+                    },
+                    "positionInBook": 191
+                },
+                {
+                    "code": "19-0403 TPG",
+                    "name": "Sea Turtle",
+                    "rgb": {
+                        "r": 101,
+                        "g": 95,
+                        "b": 85
+                    },
+                    "positionInBook": 192
+                },
+                {
+                    "code": "18-0625 TPG",
+                    "name": "Martini Olive",
+                    "rgb": {
+                        "r": 118,
+                        "g": 111,
+                        "b": 87
+                    },
+                    "positionInBook": 193
+                },
+                {
+                    "code": "19-0510 TPG",
+                    "name": "Kalamata",
+                    "rgb": {
+                        "r": 103,
+                        "g": 100,
+                        "b": 90
+                    },
+                    "positionInBook": 194
+                },
+                {
+                    "code": "19-0413 TPG",
+                    "name": "Deep Depths",
+                    "rgb": {
+                        "r": 83,
+                        "g": 85,
+                        "b": 76
+                    },
+                    "positionInBook": 195
+                },
+                {
+                    "code": "13-4104 TPG",
+                    "name": "Antarctica",
+                    "rgb": {
+                        "r": 201,
+                        "g": 201,
+                        "b": 200
+                    },
+                    "positionInBook": 196
+                },
+                {
+                    "code": "13-4201 TPG",
+                    "name": "Oyster Mushroom",
+                    "rgb": {
+                        "r": 200,
+                        "g": 202,
+                        "b": 203
+                    },
+                    "positionInBook": 197
+                },
+                {
+                    "code": "14-4107 TPG",
+                    "name": "Quiet Gray",
+                    "rgb": {
+                        "r": 188,
+                        "g": 188,
+                        "b": 190
+                    },
+                    "positionInBook": 198
+                },
+                {
+                    "code": "14-4202 TPG",
+                    "name": "Harbor Mist",
+                    "rgb": {
+                        "r": 180,
+                        "g": 183,
+                        "b": 186
+                    },
+                    "positionInBook": 199
+                },
+                {
+                    "code": "17-3914 TPG",
+                    "name": "Sharkskin",
+                    "rgb": {
+                        "r": 138,
+                        "g": 138,
+                        "b": 141
+                    },
+                    "positionInBook": 200
+                },
+                {
+                    "code": "18-5204 TPG",
+                    "name": "Granite Gray",
+                    "rgb": {
+                        "r": 105,
+                        "g": 102,
+                        "b": 103
+                    },
+                    "positionInBook": 201
+                },
+                {
+                    "code": "19-0203 TPG",
+                    "name": "Gray Pinstripe",
+                    "rgb": {
+                        "r": 85,
+                        "g": 84,
+                        "b": 89
+                    },
+                    "positionInBook": 202
+                },
+                {
+                    "code": "17-4016 TPG",
+                    "name": "Gray Flannel",
+                    "rgb": {
+                        "r": 137,
+                        "g": 133,
+                        "b": 134
+                    },
+                    "positionInBook": 203
+                },
+                {
+                    "code": "16-3905 TPG",
+                    "name": "Lilac Gray",
+                    "rgb": {
+                        "r": 158,
+                        "g": 156,
+                        "b": 169
+                    },
+                    "positionInBook": 204
+                },
+                {
+                    "code": "18-3908 TPG",
+                    "name": "Volcanic Glass",
+                    "rgb": {
+                        "r": 104,
+                        "g": 99,
+                        "b": 104
+                    },
+                    "positionInBook": 205
+                },
+                {
+                    "code": "19-3917 TPG",
+                    "name": "Blackened Pearl",
+                    "rgb": {
+                        "r": 88,
+                        "g": 86,
+                        "b": 91
+                    },
+                    "positionInBook": 206
+                },
+                {
+                    "code": "19-4003 TPG",
+                    "name": "Black Onyx",
+                    "rgb": {
+                        "r": 63,
+                        "g": 60,
+                        "b": 65
+                    },
+                    "positionInBook": 207
+                },
+                {
+                    "code": "19-3902 TPG",
+                    "name": "Obsidian",
+                    "rgb": {
+                        "r": 75,
+                        "g": 72,
+                        "b": 77
+                    },
+                    "positionInBook": 208
+                },
+                {
+                    "code": "19-3911 TPG",
+                    "name": "Black Beauty",
+                    "rgb": {
+                        "r": 59,
+                        "g": 60,
+                        "b": 64
+                    },
+                    "positionInBook": 209
+                }
+            ]
+        }
+    }
+}

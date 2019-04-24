@@ -1,0 +1,219 @@
+{
+    "data": {
+        "getBook": {
+            "id": "pantoneFhNylonBrightsTn",
+            "colors": [
+                {
+                    "code": "12-0645 TN",
+                    "name": "Lemon Tonic",
+                    "rgb": {
+                        "r": 252,
+                        "g": 249,
+                        "b": 81
+                    },
+                    "positionInBook": 0
+                },
+                {
+                    "code": "13-0630 TN",
+                    "name": "Safety Yellow",
+                    "rgb": {
+                        "r": 237,
+                        "g": 255,
+                        "b": 0
+                    },
+                    "positionInBook": 1
+                },
+                {
+                    "code": "13-1145 TN",
+                    "name": "Orange Pop",
+                    "rgb": {
+                        "r": 255,
+                        "g": 186,
+                        "b": 82
+                    },
+                    "positionInBook": 2
+                },
+                {
+                    "code": "15-1460 TN",
+                    "name": "Orange Clown Fish",
+                    "rgb": {
+                        "r": 255,
+                        "g": 111,
+                        "b": 29
+                    },
+                    "positionInBook": 3
+                },
+                {
+                    "code": "15-1360 TN",
+                    "name": "Shocking Orange",
+                    "rgb": {
+                        "r": 255,
+                        "g": 109,
+                        "b": 43
+                    },
+                    "positionInBook": 4
+                },
+                {
+                    "code": "15-1456 TN",
+                    "name": "Fiery Coral",
+                    "rgb": {
+                        "r": 255,
+                        "g": 79,
+                        "b": 88
+                    },
+                    "positionInBook": 5
+                },
+                {
+                    "code": "16-1650 TN",
+                    "name": "Diva Pink",
+                    "rgb": {
+                        "r": 255,
+                        "g": 22,
+                        "b": 89
+                    },
+                    "positionInBook": 6
+                },
+                {
+                    "code": "18-1757 TN",
+                    "name": "Sparkling Cosmo",
+                    "rgb": {
+                        "r": 212,
+                        "g": 41,
+                        "b": 94
+                    },
+                    "positionInBook": 7
+                },
+                {
+                    "code": "13-2120 TN",
+                    "name": "Cotton Candy",
+                    "rgb": {
+                        "r": 255,
+                        "g": 169,
+                        "b": 214
+                    },
+                    "positionInBook": 8
+                },
+                {
+                    "code": "16-2130 TN",
+                    "name": "Knockout Pink",
+                    "rgb": {
+                        "r": 255,
+                        "g": 62,
+                        "b": 165
+                    },
+                    "positionInBook": 9
+                },
+                {
+                    "code": "16-2125 TN",
+                    "name": "Sugar Plum",
+                    "rgb": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 179
+                    },
+                    "positionInBook": 10
+                },
+                {
+                    "code": "17-2435 TN",
+                    "name": "Pink Glo",
+                    "rgb": {
+                        "r": 250,
+                        "g": 0,
+                        "b": 138
+                    },
+                    "positionInBook": 11
+                },
+                {
+                    "code": "18-3250 TN",
+                    "name": "Purple Cactus Flower",
+                    "rgb": {
+                        "r": 157,
+                        "g": 54,
+                        "b": 149
+                    },
+                    "positionInBook": 12
+                },
+                {
+                    "code": "18-3640 TN",
+                    "name": "Electric Purple",
+                    "rgb": {
+                        "r": 105,
+                        "g": 68,
+                        "b": 142
+                    },
+                    "positionInBook": 13
+                },
+                {
+                    "code": "16-3828 TN",
+                    "name": "Purple Hebe",
+                    "rgb": {
+                        "r": 136,
+                        "g": 112,
+                        "b": 185
+                    },
+                    "positionInBook": 14
+                },
+                {
+                    "code": "18-3940 TN",
+                    "name": "Simply Purple",
+                    "rgb": {
+                        "r": 96,
+                        "g": 80,
+                        "b": 168
+                    },
+                    "positionInBook": 15
+                },
+                {
+                    "code": "18-4245 TN",
+                    "name": "Electric Blue Lemonade",
+                    "rgb": {
+                        "r": 0,
+                        "g": 99,
+                        "b": 178
+                    },
+                    "positionInBook": 16
+                },
+                {
+                    "code": "17-4436 TN",
+                    "name": "Atomic Blue",
+                    "rgb": {
+                        "r": 0,
+                        "g": 137,
+                        "b": 185
+                    },
+                    "positionInBook": 17
+                },
+                {
+                    "code": "14-4530 TN",
+                    "name": "Bluefish",
+                    "rgb": {
+                        "r": 77,
+                        "g": 198,
+                        "b": 226
+                    },
+                    "positionInBook": 18
+                },
+                {
+                    "code": "16-6230 TN",
+                    "name": "Andean Toucan",
+                    "rgb": {
+                        "r": 0,
+                        "g": 199,
+                        "b": 86
+                    },
+                    "positionInBook": 19
+                },
+                {
+                    "code": "13-0340 TN",
+                    "name": "Green Gecko",
+                    "rgb": {
+                        "r": 105,
+                        "g": 255,
+                        "b": 71
+                    },
+                    "positionInBook": 20
+                }
+            ]
+        }
+    }
+}

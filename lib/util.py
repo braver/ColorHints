@@ -7,8 +7,8 @@ License: MIT
 import sublime
 import re
 import decimal
-from ColorHints.lib import csscolors
-from ColorHints.lib.rgba import RGBA, round_int, clamp
+from . import csscolors, pantone
+from .rgba import RGBA, round_int, clamp
 from textwrap import dedent
 import platform
 
@@ -34,7 +34,8 @@ COMPLETE = r'''
     \b(?P<hwb>hwb\(\s*(?P<hwb_content>%(float)s\s*,\s*%(percent)s\s*,\s*%(percent)s)\s*\)) |
     \b(?P<hwba>hwb\(\s*(?P<hwba_content>%(float)s\s*,\s*(?:%(percent)s\s*,\s*){2}(?:%(percent)s|%(float)s))\s*\)) |
     \b(?P<gray>gray\(\s*(?P<gray_content>%(float)s|%(percent)s)\s*\)) |
-    \b(?P<graya>gray\(\s*(?P<graya_content>(?:%(float)s|%(percent)s)\s*,\s*(?:%(percent)s|%(float)s))\s*\))
+    \b(?P<graya>gray\(\s*(?P<graya_content>(?:%(float)s|%(percent)s)\s*,\s*(?:%(percent)s|%(float)s))\s*\)) |
+    \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})
 ''' % COLOR_PARTS
 
 INCOMPLETE = r'''
@@ -480,6 +481,14 @@ def translate_color(m, use_hex_argb=False, decode=False):
                 color = csscolors.name2hex(m.group('webcolors').decode('utf-8')).lower()
             else:
                 color = csscolors.name2hex(m.group('webcolors')).lower()
+        except Exception:
+            pass
+    elif m.group('pantone_code'):
+        try:
+            if decode:
+                color = pantone.code2hex(m.group('pantone_code').decode('utf-8')).lower()
+            else:
+                color = pantone.code2hex(m.group('pantone_code')).lower()
         except Exception:
             pass
     return color, alpha, alpha_dec

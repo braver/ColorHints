@@ -1,0 +1,2109 @@
+{
+    "data": {
+        "getBook": {
+            "id": "pantonePastelsNeonsCoatedM2",
+            "colors": [
+                {
+                    "code": "Yellow 0131 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 240,
+                        "b": 161
+                    },
+                    "positionInBook": 0
+                },
+                {
+                    "code": "Red 0331 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 252,
+                        "g": 174,
+                        "b": 187
+                    },
+                    "positionInBook": 1
+                },
+                {
+                    "code": "Magenta 0521 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 241,
+                        "g": 178,
+                        "b": 220
+                    },
+                    "positionInBook": 2
+                },
+                {
+                    "code": "Violet 0631 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 191,
+                        "g": 155,
+                        "b": 222
+                    },
+                    "positionInBook": 3
+                },
+                {
+                    "code": "Blue 0821 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 116,
+                        "g": 209,
+                        "b": 234
+                    },
+                    "positionInBook": 4
+                },
+                {
+                    "code": "Green 0921 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 157,
+                        "g": 231,
+                        "b": 215
+                    },
+                    "positionInBook": 5
+                },
+                {
+                    "code": "Black 0961 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 158,
+                        "g": 151,
+                        "b": 142
+                    },
+                    "positionInBook": 6
+                },
+                {
+                    "code": "9140 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 238,
+                        "b": 202
+                    },
+                    "positionInBook": 7
+                },
+                {
+                    "code": "9284 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 250,
+                        "g": 201,
+                        "b": 209
+                    },
+                    "positionInBook": 8
+                },
+                {
+                    "code": "9324 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 243,
+                        "g": 201,
+                        "b": 228
+                    },
+                    "positionInBook": 9
+                },
+                {
+                    "code": "9344 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 209,
+                        "g": 182,
+                        "b": 228
+                    },
+                    "positionInBook": 10
+                },
+                {
+                    "code": "9464 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 159,
+                        "g": 221,
+                        "b": 237
+                    },
+                    "positionInBook": 11
+                },
+                {
+                    "code": "9524 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 175,
+                        "g": 234,
+                        "b": 220
+                    },
+                    "positionInBook": 12
+                },
+                {
+                    "code": "9084 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 173,
+                        "g": 167,
+                        "b": 158
+                    },
+                    "positionInBook": 13
+                },
+                {
+                    "code": "9060 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 241,
+                        "g": 240,
+                        "b": 216
+                    },
+                    "positionInBook": 14
+                },
+                {
+                    "code": "9280 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 245,
+                        "g": 226,
+                        "b": 226
+                    },
+                    "positionInBook": 15
+                },
+                {
+                    "code": "9320 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 222,
+                        "b": 233
+                    },
+                    "positionInBook": 16
+                },
+                {
+                    "code": "9340 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 231,
+                        "g": 220,
+                        "b": 234
+                    },
+                    "positionInBook": 17
+                },
+                {
+                    "code": "9460 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 213,
+                        "g": 235,
+                        "b": 238
+                    },
+                    "positionInBook": 18
+                },
+                {
+                    "code": "9520 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 215,
+                        "g": 239,
+                        "b": 231
+                    },
+                    "positionInBook": 19
+                },
+                {
+                    "code": "9083 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 204,
+                        "g": 200,
+                        "b": 191
+                    },
+                    "positionInBook": 20
+                },
+                {
+                    "code": "9064 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 241,
+                        "g": 241,
+                        "b": 222
+                    },
+                    "positionInBook": 21
+                },
+                {
+                    "code": "9285 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 235,
+                        "b": 231
+                    },
+                    "positionInBook": 22
+                },
+                {
+                    "code": "9061 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 233,
+                        "b": 234
+                    },
+                    "positionInBook": 23
+                },
+                {
+                    "code": "9345 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 238,
+                        "g": 233,
+                        "b": 234
+                    },
+                    "positionInBook": 24
+                },
+                {
+                    "code": "9062 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 230,
+                        "g": 238,
+                        "b": 236
+                    },
+                    "positionInBook": 25
+                },
+                {
+                    "code": "9063 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 231,
+                        "g": 239,
+                        "b": 231
+                    },
+                    "positionInBook": 26
+                },
+                {
+                    "code": "9081 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 223,
+                        "g": 220,
+                        "b": 212
+                    },
+                    "positionInBook": 27
+                },
+                {
+                    "code": "9043 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 232,
+                        "g": 230,
+                        "b": 223
+                    },
+                    "positionInBook": 28
+                },
+                {
+                    "code": "9080 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 228,
+                        "g": 226,
+                        "b": 219
+                    },
+                    "positionInBook": 29
+                },
+                {
+                    "code": "9100 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 231,
+                        "g": 231,
+                        "b": 224
+                    },
+                    "positionInBook": 30
+                },
+                {
+                    "code": "9101 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 227,
+                        "g": 227,
+                        "b": 221
+                    },
+                    "positionInBook": 31
+                },
+                {
+                    "code": "9102 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 217,
+                        "g": 219,
+                        "b": 213
+                    },
+                    "positionInBook": 32
+                },
+                {
+                    "code": "9103 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 213,
+                        "g": 216,
+                        "b": 210
+                    },
+                    "positionInBook": 33
+                },
+                {
+                    "code": "9082 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 210,
+                        "g": 205,
+                        "b": 195
+                    },
+                    "positionInBook": 34
+                },
+                {
+                    "code": "9121 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 241,
+                        "g": 240,
+                        "b": 176
+                    },
+                    "positionInBook": 35
+                },
+                {
+                    "code": "9120 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 241,
+                        "g": 239,
+                        "b": 183
+                    },
+                    "positionInBook": 36
+                },
+                {
+                    "code": "9141 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 237,
+                        "b": 192
+                    },
+                    "positionInBook": 37
+                },
+                {
+                    "code": "9142 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 233,
+                        "g": 228,
+                        "b": 197
+                    },
+                    "positionInBook": 38
+                },
+                {
+                    "code": "9161 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 231,
+                        "g": 219,
+                        "b": 185
+                    },
+                    "positionInBook": 39
+                },
+                {
+                    "code": "9143 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 227,
+                        "g": 223,
+                        "b": 195
+                    },
+                    "positionInBook": 40
+                },
+                {
+                    "code": "9162 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 226,
+                        "g": 217,
+                        "b": 194
+                    },
+                    "positionInBook": 41
+                },
+                {
+                    "code": "9160 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 244,
+                        "g": 229,
+                        "b": 192
+                    },
+                    "positionInBook": 42
+                },
+                {
+                    "code": "9180 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 243,
+                        "g": 228,
+                        "b": 205
+                    },
+                    "positionInBook": 43
+                },
+                {
+                    "code": "9181 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 244,
+                        "g": 227,
+                        "b": 201
+                    },
+                    "positionInBook": 44
+                },
+                {
+                    "code": "9200 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 245,
+                        "g": 225,
+                        "b": 204
+                    },
+                    "positionInBook": 45
+                },
+                {
+                    "code": "9201 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 245,
+                        "g": 227,
+                        "b": 204
+                    },
+                    "positionInBook": 46
+                },
+                {
+                    "code": "9220 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 245,
+                        "g": 224,
+                        "b": 207
+                    },
+                    "positionInBook": 47
+                },
+                {
+                    "code": "9221 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 237,
+                        "g": 214,
+                        "b": 196
+                    },
+                    "positionInBook": 48
+                },
+                {
+                    "code": "9184 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 239,
+                        "g": 228,
+                        "b": 206
+                    },
+                    "positionInBook": 49
+                },
+                {
+                    "code": "9185 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 237,
+                        "g": 225,
+                        "b": 207
+                    },
+                    "positionInBook": 50
+                },
+                {
+                    "code": "9202 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 237,
+                        "g": 222,
+                        "b": 205
+                    },
+                    "positionInBook": 51
+                },
+                {
+                    "code": "9182 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 236,
+                        "g": 220,
+                        "b": 200
+                    },
+                    "positionInBook": 52
+                },
+                {
+                    "code": "9183 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 229,
+                        "g": 215,
+                        "b": 197
+                    },
+                    "positionInBook": 53
+                },
+                {
+                    "code": "9203 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 228,
+                        "g": 213,
+                        "b": 196
+                    },
+                    "positionInBook": 54
+                },
+                {
+                    "code": "9186 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 225,
+                        "g": 211,
+                        "b": 196
+                    },
+                    "positionInBook": 55
+                },
+                {
+                    "code": "9224 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 233,
+                        "b": 219
+                    },
+                    "positionInBook": 56
+                },
+                {
+                    "code": "9225 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 240,
+                        "g": 230,
+                        "b": 216
+                    },
+                    "positionInBook": 57
+                },
+                {
+                    "code": "9226 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 235,
+                        "g": 227,
+                        "b": 215
+                    },
+                    "positionInBook": 58
+                },
+                {
+                    "code": "9222 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 230,
+                        "g": 213,
+                        "b": 200
+                    },
+                    "positionInBook": 59
+                },
+                {
+                    "code": "9223 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 225,
+                        "g": 211,
+                        "b": 199
+                    },
+                    "positionInBook": 60
+                },
+                {
+                    "code": "9242 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 233,
+                        "g": 213,
+                        "b": 205
+                    },
+                    "positionInBook": 61
+                },
+                {
+                    "code": "9243 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 225,
+                        "g": 206,
+                        "b": 198
+                    },
+                    "positionInBook": 62
+                },
+                {
+                    "code": "9244 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 243,
+                        "g": 233,
+                        "b": 226
+                    },
+                    "positionInBook": 63
+                },
+                {
+                    "code": "9240 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 244,
+                        "g": 229,
+                        "b": 222
+                    },
+                    "positionInBook": 64
+                },
+                {
+                    "code": "9260 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 245,
+                        "g": 222,
+                        "b": 218
+                    },
+                    "positionInBook": 65
+                },
+                {
+                    "code": "9241 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 240,
+                        "g": 221,
+                        "b": 215
+                    },
+                    "positionInBook": 66
+                },
+                {
+                    "code": "9261 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 239,
+                        "g": 215,
+                        "b": 212
+                    },
+                    "positionInBook": 67
+                },
+                {
+                    "code": "9262 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 234,
+                        "g": 213,
+                        "b": 210
+                    },
+                    "positionInBook": 68
+                },
+                {
+                    "code": "9263 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 228,
+                        "g": 209,
+                        "b": 205
+                    },
+                    "positionInBook": 69
+                },
+                {
+                    "code": "9286 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 246,
+                        "g": 223,
+                        "b": 224
+                    },
+                    "positionInBook": 70
+                },
+                {
+                    "code": "9281 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 242,
+                        "g": 221,
+                        "b": 222
+                    },
+                    "positionInBook": 71
+                },
+                {
+                    "code": "9300 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 244,
+                        "g": 221,
+                        "b": 226
+                    },
+                    "positionInBook": 72
+                },
+                {
+                    "code": "9282 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 239,
+                        "g": 218,
+                        "b": 219
+                    },
+                    "positionInBook": 73
+                },
+                {
+                    "code": "9301 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 240,
+                        "g": 219,
+                        "b": 225
+                    },
+                    "positionInBook": 74
+                },
+                {
+                    "code": "9321 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 237,
+                        "g": 213,
+                        "b": 226
+                    },
+                    "positionInBook": 75
+                },
+                {
+                    "code": "9302 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 233,
+                        "g": 206,
+                        "b": 213
+                    },
+                    "positionInBook": 76
+                },
+                {
+                    "code": "9021 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 241,
+                        "g": 231,
+                        "b": 228
+                    },
+                    "positionInBook": 77
+                },
+                {
+                    "code": "9022 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 240,
+                        "g": 231,
+                        "b": 233
+                    },
+                    "positionInBook": 78
+                },
+                {
+                    "code": "9023 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 234,
+                        "g": 227,
+                        "b": 234
+                    },
+                    "positionInBook": 79
+                },
+                {
+                    "code": "9283 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 233,
+                        "g": 216,
+                        "b": 215
+                    },
+                    "positionInBook": 80
+                },
+                {
+                    "code": "9303 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 231,
+                        "g": 210,
+                        "b": 214
+                    },
+                    "positionInBook": 81
+                },
+                {
+                    "code": "9322 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 233,
+                        "g": 208,
+                        "b": 220
+                    },
+                    "positionInBook": 82
+                },
+                {
+                    "code": "9323 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 226,
+                        "g": 204,
+                        "b": 214
+                    },
+                    "positionInBook": 83
+                },
+                {
+                    "code": "9360 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 222,
+                        "g": 216,
+                        "b": 235
+                    },
+                    "positionInBook": 84
+                },
+                {
+                    "code": "9341 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 227,
+                        "g": 215,
+                        "b": 230
+                    },
+                    "positionInBook": 85
+                },
+                {
+                    "code": "9342 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 224,
+                        "g": 212,
+                        "b": 226
+                    },
+                    "positionInBook": 86
+                },
+                {
+                    "code": "9343 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 222,
+                        "g": 209,
+                        "b": 225
+                    },
+                    "positionInBook": 87
+                },
+                {
+                    "code": "9361 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 220,
+                        "g": 211,
+                        "b": 231
+                    },
+                    "positionInBook": 88
+                },
+                {
+                    "code": "9362 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 220,
+                        "g": 212,
+                        "b": 229
+                    },
+                    "positionInBook": 89
+                },
+                {
+                    "code": "9363 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 209,
+                        "g": 199,
+                        "b": 217
+                    },
+                    "positionInBook": 90
+                },
+                {
+                    "code": "9380 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 222,
+                        "g": 225,
+                        "b": 236
+                    },
+                    "positionInBook": 91
+                },
+                {
+                    "code": "9384 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 218,
+                        "g": 223,
+                        "b": 236
+                    },
+                    "positionInBook": 92
+                },
+                {
+                    "code": "9381 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 210,
+                        "g": 217,
+                        "b": 232
+                    },
+                    "positionInBook": 93
+                },
+                {
+                    "code": "9382 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 205,
+                        "g": 210,
+                        "b": 230
+                    },
+                    "positionInBook": 94
+                },
+                {
+                    "code": "9383 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 209,
+                        "g": 213,
+                        "b": 227
+                    },
+                    "positionInBook": 95
+                },
+                {
+                    "code": "9385 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 206,
+                        "g": 213,
+                        "b": 223
+                    },
+                    "positionInBook": 96
+                },
+                {
+                    "code": "9403 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 206,
+                        "g": 217,
+                        "b": 228
+                    },
+                    "positionInBook": 97
+                },
+                {
+                    "code": "9400 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 214,
+                        "g": 225,
+                        "b": 236
+                    },
+                    "positionInBook": 98
+                },
+                {
+                    "code": "9401 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 213,
+                        "g": 225,
+                        "b": 237
+                    },
+                    "positionInBook": 99
+                },
+                {
+                    "code": "9402 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 213,
+                        "g": 224,
+                        "b": 234
+                    },
+                    "positionInBook": 100
+                },
+                {
+                    "code": "9420 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 209,
+                        "g": 226,
+                        "b": 236
+                    },
+                    "positionInBook": 101
+                },
+                {
+                    "code": "9421 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 206,
+                        "g": 223,
+                        "b": 233
+                    },
+                    "positionInBook": 102
+                },
+                {
+                    "code": "9422 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 202,
+                        "g": 217,
+                        "b": 227
+                    },
+                    "positionInBook": 103
+                },
+                {
+                    "code": "9423 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 192,
+                        "g": 209,
+                        "b": 218
+                    },
+                    "positionInBook": 104
+                },
+                {
+                    "code": "9424 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 195,
+                        "g": 227,
+                        "b": 231
+                    },
+                    "positionInBook": 105
+                },
+                {
+                    "code": "9440 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 193,
+                        "g": 224,
+                        "b": 234
+                    },
+                    "positionInBook": 106
+                },
+                {
+                    "code": "9441 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 192,
+                        "g": 224,
+                        "b": 236
+                    },
+                    "positionInBook": 107
+                },
+                {
+                    "code": "9442 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 190,
+                        "g": 221,
+                        "b": 231
+                    },
+                    "positionInBook": 108
+                },
+                {
+                    "code": "9461 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 190,
+                        "g": 226,
+                        "b": 231
+                    },
+                    "positionInBook": 109
+                },
+                {
+                    "code": "9462 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 185,
+                        "g": 219,
+                        "b": 224
+                    },
+                    "positionInBook": 110
+                },
+                {
+                    "code": "9443 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 185,
+                        "g": 213,
+                        "b": 222
+                    },
+                    "positionInBook": 111
+                },
+                {
+                    "code": "9480 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 200,
+                        "g": 233,
+                        "b": 233
+                    },
+                    "positionInBook": 112
+                },
+                {
+                    "code": "9481 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 197,
+                        "g": 233,
+                        "b": 234
+                    },
+                    "positionInBook": 113
+                },
+                {
+                    "code": "9500 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 190,
+                        "g": 233,
+                        "b": 231
+                    },
+                    "positionInBook": 114
+                },
+                {
+                    "code": "9482 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 193,
+                        "g": 227,
+                        "b": 228
+                    },
+                    "positionInBook": 115
+                },
+                {
+                    "code": "9501 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 185,
+                        "g": 224,
+                        "b": 221
+                    },
+                    "positionInBook": 116
+                },
+                {
+                    "code": "9483 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 198,
+                        "g": 220,
+                        "b": 218
+                    },
+                    "positionInBook": 117
+                },
+                {
+                    "code": "9463 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 189,
+                        "g": 218,
+                        "b": 221
+                    },
+                    "positionInBook": 118
+                },
+                {
+                    "code": "9042 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 227,
+                        "g": 232,
+                        "b": 227
+                    },
+                    "positionInBook": 119
+                },
+                {
+                    "code": "9041 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 223,
+                        "g": 236,
+                        "b": 228
+                    },
+                    "positionInBook": 120
+                },
+                {
+                    "code": "9040 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 220,
+                        "g": 235,
+                        "b": 236
+                    },
+                    "positionInBook": 121
+                },
+                {
+                    "code": "9044 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 201,
+                        "g": 226,
+                        "b": 224
+                    },
+                    "positionInBook": 122
+                },
+                {
+                    "code": "9045 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 200,
+                        "g": 222,
+                        "b": 218
+                    },
+                    "positionInBook": 123
+                },
+                {
+                    "code": "9503 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 203,
+                        "g": 222,
+                        "b": 218
+                    },
+                    "positionInBook": 124
+                },
+                {
+                    "code": "9504 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 198,
+                        "g": 218,
+                        "b": 215
+                    },
+                    "positionInBook": 125
+                },
+                {
+                    "code": "9525 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 229,
+                        "g": 239,
+                        "b": 226
+                    },
+                    "positionInBook": 126
+                },
+                {
+                    "code": "9540 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 225,
+                        "g": 240,
+                        "b": 229
+                    },
+                    "positionInBook": 127
+                },
+                {
+                    "code": "9541 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 223,
+                        "g": 236,
+                        "b": 226
+                    },
+                    "positionInBook": 128
+                },
+                {
+                    "code": "9521 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 213,
+                        "g": 233,
+                        "b": 225
+                    },
+                    "positionInBook": 129
+                },
+                {
+                    "code": "9522 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 214,
+                        "g": 230,
+                        "b": 223
+                    },
+                    "positionInBook": 130
+                },
+                {
+                    "code": "9523 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 214,
+                        "g": 227,
+                        "b": 220
+                    },
+                    "positionInBook": 131
+                },
+                {
+                    "code": "9502 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 205,
+                        "g": 227,
+                        "b": 224
+                    },
+                    "positionInBook": 132
+                },
+                {
+                    "code": "9544 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 229,
+                        "g": 239,
+                        "b": 218
+                    },
+                    "positionInBook": 133
+                },
+                {
+                    "code": "9560 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 223,
+                        "g": 239,
+                        "b": 219
+                    },
+                    "positionInBook": 134
+                },
+                {
+                    "code": "9561 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 215,
+                        "g": 232,
+                        "b": 210
+                    },
+                    "positionInBook": 135
+                },
+                {
+                    "code": "9562 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 214,
+                        "g": 226,
+                        "b": 207
+                    },
+                    "positionInBook": 136
+                },
+                {
+                    "code": "9563 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 213,
+                        "g": 221,
+                        "b": 206
+                    },
+                    "positionInBook": 137
+                },
+                {
+                    "code": "9542 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 205,
+                        "g": 218,
+                        "b": 205
+                    },
+                    "positionInBook": 138
+                },
+                {
+                    "code": "9543 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 199,
+                        "g": 215,
+                        "b": 201
+                    },
+                    "positionInBook": 139
+                },
+                {
+                    "code": "9020 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 238,
+                        "g": 238,
+                        "b": 200
+                    },
+                    "positionInBook": 140
+                },
+                {
+                    "code": "9600 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 231,
+                        "g": 237,
+                        "b": 200
+                    },
+                    "positionInBook": 141
+                },
+                {
+                    "code": "9601 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 229,
+                        "g": 232,
+                        "b": 205
+                    },
+                    "positionInBook": 142
+                },
+                {
+                    "code": "9122 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 228,
+                        "g": 226,
+                        "b": 183
+                    },
+                    "positionInBook": 143
+                },
+                {
+                    "code": "9602 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 217,
+                        "g": 219,
+                        "b": 189
+                    },
+                    "positionInBook": 144
+                },
+                {
+                    "code": "9603 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 217,
+                        "g": 217,
+                        "b": 195
+                    },
+                    "positionInBook": 145
+                },
+                {
+                    "code": "9123 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 220,
+                        "g": 217,
+                        "b": 185
+                    },
+                    "positionInBook": 146
+                },
+                {
+                    "code": "9580 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 225,
+                        "g": 239,
+                        "b": 206
+                    },
+                    "positionInBook": 147
+                },
+                {
+                    "code": "9581 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 222,
+                        "g": 231,
+                        "b": 205
+                    },
+                    "positionInBook": 148
+                },
+                {
+                    "code": "9584 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 220,
+                        "g": 225,
+                        "b": 203
+                    },
+                    "positionInBook": 149
+                },
+                {
+                    "code": "9582 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 215,
+                        "g": 219,
+                        "b": 200
+                    },
+                    "positionInBook": 150
+                },
+                {
+                    "code": "9583 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 205,
+                        "g": 210,
+                        "b": 186
+                    },
+                    "positionInBook": 151
+                },
+                {
+                    "code": "9585 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 215,
+                        "g": 219,
+                        "b": 198
+                    },
+                    "positionInBook": 152
+                },
+                {
+                    "code": "9163 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 216,
+                        "g": 207,
+                        "b": 185
+                    },
+                    "positionInBook": 153
+                },
+                {
+                    "code": "801 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 0,
+                        "g": 154,
+                        "b": 206
+                    },
+                    "positionInBook": 154
+                },
+                {
+                    "code": "802 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 68,
+                        "g": 214,
+                        "b": 44
+                    },
+                    "positionInBook": 155
+                },
+                {
+                    "code": "803 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 233,
+                        "b": 0
+                    },
+                    "positionInBook": 156
+                },
+                {
+                    "code": "804 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 170,
+                        "b": 77
+                    },
+                    "positionInBook": 157
+                },
+                {
+                    "code": "805 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 114,
+                        "b": 118
+                    },
+                    "positionInBook": 158
+                },
+                {
+                    "code": "806 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 62,
+                        "b": 181
+                    },
+                    "positionInBook": 159
+                },
+                {
+                    "code": "807 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 234,
+                        "g": 39,
+                        "b": 194
+                    },
+                    "positionInBook": 160
+                },
+                {
+                    "code": "901 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 0,
+                        "g": 170,
+                        "b": 218
+                    },
+                    "positionInBook": 161
+                },
+                {
+                    "code": "902 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 141,
+                        "g": 233,
+                        "b": 113
+                    },
+                    "positionInBook": 162
+                },
+                {
+                    "code": "903 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 243,
+                        "b": 109
+                    },
+                    "positionInBook": 163
+                },
+                {
+                    "code": "904 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 205,
+                        "b": 138
+                    },
+                    "positionInBook": 164
+                },
+                {
+                    "code": "905 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 157,
+                        "b": 167
+                    },
+                    "positionInBook": 165
+                },
+                {
+                    "code": "906 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 124,
+                        "b": 214
+                    },
+                    "positionInBook": 166
+                },
+                {
+                    "code": "907 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 244,
+                        "g": 105,
+                        "b": 219
+                    },
+                    "positionInBook": 167
+                },
+                {
+                    "code": "908 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 0,
+                        "g": 175,
+                        "b": 219
+                    },
+                    "positionInBook": 168
+                },
+                {
+                    "code": "909 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 169,
+                        "g": 238,
+                        "b": 138
+                    },
+                    "positionInBook": 169
+                },
+                {
+                    "code": "910 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 253,
+                        "g": 243,
+                        "b": 138
+                    },
+                    "positionInBook": 170
+                },
+                {
+                    "code": "911 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 217,
+                        "b": 164
+                    },
+                    "positionInBook": 171
+                },
+                {
+                    "code": "912 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 172,
+                        "b": 182
+                    },
+                    "positionInBook": 172
+                },
+                {
+                    "code": "913 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 146,
+                        "b": 218
+                    },
+                    "positionInBook": 173
+                },
+                {
+                    "code": "914 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 245,
+                        "g": 127,
+                        "b": 224
+                    },
+                    "positionInBook": 174
+                },
+                {
+                    "code": "915 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 0,
+                        "g": 188,
+                        "b": 227
+                    },
+                    "positionInBook": 175
+                },
+                {
+                    "code": "916 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 185,
+                        "g": 239,
+                        "b": 163
+                    },
+                    "positionInBook": 176
+                },
+                {
+                    "code": "917 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 247,
+                        "g": 244,
+                        "b": 162
+                    },
+                    "positionInBook": 177
+                },
+                {
+                    "code": "918 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 223,
+                        "b": 180
+                    },
+                    "positionInBook": 178
+                },
+                {
+                    "code": "919 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 192,
+                        "b": 200
+                    },
+                    "positionInBook": 179
+                },
+                {
+                    "code": "920 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 173,
+                        "b": 227
+                    },
+                    "positionInBook": 180
+                },
+                {
+                    "code": "921 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 248,
+                        "g": 163,
+                        "b": 230
+                    },
+                    "positionInBook": 181
+                },
+                {
+                    "code": "808 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 0,
+                        "g": 183,
+                        "b": 150
+                    },
+                    "positionInBook": 182
+                },
+                {
+                    "code": "809 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 227,
+                        "g": 232,
+                        "b": 41
+                    },
+                    "positionInBook": 183
+                },
+                {
+                    "code": "810 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 214,
+                        "b": 53
+                    },
+                    "positionInBook": 184
+                },
+                {
+                    "code": "811 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 143,
+                        "b": 108
+                    },
+                    "positionInBook": 185
+                },
+                {
+                    "code": "812 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 95,
+                        "b": 162
+                    },
+                    "positionInBook": 186
+                },
+                {
+                    "code": "813 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 251,
+                        "g": 72,
+                        "b": 196
+                    },
+                    "positionInBook": 187
+                },
+                {
+                    "code": "814 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 138,
+                        "g": 105,
+                        "b": 212
+                    },
+                    "positionInBook": 188
+                },
+                {
+                    "code": "922 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 0,
+                        "g": 192,
+                        "b": 163
+                    },
+                    "positionInBook": 189
+                },
+                {
+                    "code": "923 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 236,
+                        "g": 241,
+                        "b": 102
+                    },
+                    "positionInBook": 190
+                },
+                {
+                    "code": "924 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 230,
+                        "b": 113
+                    },
+                    "positionInBook": 191
+                },
+                {
+                    "code": "925 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 173,
+                        "b": 147
+                    },
+                    "positionInBook": 192
+                },
+                {
+                    "code": "926 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 133,
+                        "b": 189
+                    },
+                    "positionInBook": 193
+                },
+                {
+                    "code": "927 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 252,
+                        "g": 118,
+                        "b": 217
+                    },
+                    "positionInBook": 194
+                },
+                {
+                    "code": "928 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 153,
+                        "g": 122,
+                        "b": 219
+                    },
+                    "positionInBook": 195
+                },
+                {
+                    "code": "929 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 43,
+                        "g": 201,
+                        "b": 175
+                    },
+                    "positionInBook": 196
+                },
+                {
+                    "code": "930 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 238,
+                        "g": 243,
+                        "b": 134
+                    },
+                    "positionInBook": 197
+                },
+                {
+                    "code": "931 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 233,
+                        "b": 131
+                    },
+                    "positionInBook": 198
+                },
+                {
+                    "code": "932 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 187,
+                        "b": 164
+                    },
+                    "positionInBook": 199
+                },
+                {
+                    "code": "933 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 155,
+                        "b": 203
+                    },
+                    "positionInBook": 200
+                },
+                {
+                    "code": "934 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 252,
+                        "g": 141,
+                        "b": 224
+                    },
+                    "positionInBook": 201
+                },
+                {
+                    "code": "935 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 171,
+                        "g": 146,
+                        "b": 225
+                    },
+                    "positionInBook": 202
+                },
+                {
+                    "code": "936 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 109,
+                        "g": 213,
+                        "b": 195
+                    },
+                    "positionInBook": 203
+                },
+                {
+                    "code": "937 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 239,
+                        "g": 244,
+                        "b": 164
+                    },
+                    "positionInBook": 204
+                },
+                {
+                    "code": "938 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 252,
+                        "g": 238,
+                        "b": 168
+                    },
+                    "positionInBook": 205
+                },
+                {
+                    "code": "939 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 207,
+                        "b": 190
+                    },
+                    "positionInBook": 206
+                },
+                {
+                    "code": "940 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 255,
+                        "g": 182,
+                        "b": 217
+                    },
+                    "positionInBook": 207
+                },
+                {
+                    "code": "941 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 252,
+                        "g": 169,
+                        "b": 230
+                    },
+                    "positionInBook": 208
+                },
+                {
+                    "code": "942 C",
+                    "name": null,
+                    "rgb": {
+                        "r": 192,
+                        "g": 174,
+                        "b": 231
+                    },
+                    "positionInBook": 209
+                }
+            ]
+        }
+    }
+}

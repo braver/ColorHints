@@ -1,7 +1,6 @@
 import sublime
 import sublime_plugin
-from ColorHints.lib import util
-
+from .lib import util, pantone
 
 TEMPLATE = '''
     <body id="inline-color-hint">
@@ -15,6 +14,10 @@ TEMPLATE = '''
         <div class="color-box"></div>
     </body>
 '''
+
+
+def plugin_loaded():
+    pantone.load()
 
 
 def get_cursor_color(view, region):

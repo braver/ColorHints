@@ -1,0 +1,2039 @@
+{
+    "data": {
+        "getBook": {
+            "id": "pantoneFhiPolyesterTsx",
+            "colors": [
+                {
+                    "code": "11-0102 TSX",
+                    "name": "Marshmallow Crème",
+                    "rgb": {
+                        "r": 241,
+                        "g": 243,
+                        "b": 255
+                    },
+                    "positionInBook": 0
+                },
+                {
+                    "code": "11-0109 TSX",
+                    "name": "Cappucino Foam",
+                    "rgb": {
+                        "r": 246,
+                        "g": 243,
+                        "b": 232
+                    },
+                    "positionInBook": 1
+                },
+                {
+                    "code": "11-0203 TSX",
+                    "name": "Eggwhite",
+                    "rgb": {
+                        "r": 239,
+                        "g": 234,
+                        "b": 231
+                    },
+                    "positionInBook": 2
+                },
+                {
+                    "code": "11-0501 TSX",
+                    "name": "Baby Powder",
+                    "rgb": {
+                        "r": 247,
+                        "g": 246,
+                        "b": 238
+                    },
+                    "positionInBook": 3
+                },
+                {
+                    "code": "11-0503 TSX",
+                    "name": "Meringue",
+                    "rgb": {
+                        "r": 250,
+                        "g": 243,
+                        "b": 227
+                    },
+                    "positionInBook": 4
+                },
+                {
+                    "code": "11-0518 TSX",
+                    "name": "Béchamel",
+                    "rgb": {
+                        "r": 247,
+                        "g": 236,
+                        "b": 197
+                    },
+                    "positionInBook": 5
+                },
+                {
+                    "code": "11-0610 TSX",
+                    "name": "Silence",
+                    "rgb": {
+                        "r": 246,
+                        "g": 239,
+                        "b": 229
+                    },
+                    "positionInBook": 6
+                },
+                {
+                    "code": "11-0720 TSX",
+                    "name": "Duckling",
+                    "rgb": {
+                        "r": 241,
+                        "g": 234,
+                        "b": 172
+                    },
+                    "positionInBook": 7
+                },
+                {
+                    "code": "11-4002 TSX",
+                    "name": "Powdered Sugar",
+                    "rgb": {
+                        "r": 241,
+                        "g": 244,
+                        "b": 255
+                    },
+                    "positionInBook": 8
+                },
+                {
+                    "code": "12-0658 TSX",
+                    "name": "Highlight",
+                    "rgb": {
+                        "r": 251,
+                        "g": 235,
+                        "b": 112
+                    },
+                    "positionInBook": 9
+                },
+                {
+                    "code": "12-0660 TSX",
+                    "name": "Lemon Fizz",
+                    "rgb": {
+                        "r": 242,
+                        "g": 230,
+                        "b": 81
+                    },
+                    "positionInBook": 10
+                },
+                {
+                    "code": "12-0739 TSX",
+                    "name": "Daisy Floret",
+                    "rgb": {
+                        "r": 252,
+                        "g": 222,
+                        "b": 118
+                    },
+                    "positionInBook": 11
+                },
+                {
+                    "code": "12-0830 TSX",
+                    "name": "Pancake Batter",
+                    "rgb": {
+                        "r": 234,
+                        "g": 210,
+                        "b": 149
+                    },
+                    "positionInBook": 12
+                },
+                {
+                    "code": "12-2007 TSX",
+                    "name": "Little Piglet",
+                    "rgb": {
+                        "r": 236,
+                        "g": 209,
+                        "b": 214
+                    },
+                    "positionInBook": 13
+                },
+                {
+                    "code": "12-4010 TSX",
+                    "name": "Frosted Window",
+                    "rgb": {
+                        "r": 186,
+                        "g": 204,
+                        "b": 230
+                    },
+                    "positionInBook": 14
+                },
+                {
+                    "code": "12-4102 TSX",
+                    "name": "Grout",
+                    "rgb": {
+                        "r": 207,
+                        "g": 212,
+                        "b": 215
+                    },
+                    "positionInBook": 15
+                },
+                {
+                    "code": "12-4207 TSX",
+                    "name": "Quietude",
+                    "rgb": {
+                        "r": 189,
+                        "g": 211,
+                        "b": 226
+                    },
+                    "positionInBook": 16
+                },
+                {
+                    "code": "12-4401 TSX",
+                    "name": "Antique Crinoline",
+                    "rgb": {
+                        "r": 217,
+                        "g": 219,
+                        "b": 222
+                    },
+                    "positionInBook": 17
+                },
+                {
+                    "code": "13-0201 TSX",
+                    "name": "Tiptoe",
+                    "rgb": {
+                        "r": 190,
+                        "g": 189,
+                        "b": 191
+                    },
+                    "positionInBook": 18
+                },
+                {
+                    "code": "13-0240 TSX",
+                    "name": "Tomatillo",
+                    "rgb": {
+                        "r": 191,
+                        "g": 223,
+                        "b": 142
+                    },
+                    "positionInBook": 19
+                },
+                {
+                    "code": "13-0402 TSX",
+                    "name": "Tortilla",
+                    "rgb": {
+                        "r": 200,
+                        "g": 186,
+                        "b": 171
+                    },
+                    "positionInBook": 20
+                },
+                {
+                    "code": "13-0663 TSX",
+                    "name": "Sun Glare",
+                    "rgb": {
+                        "r": 237,
+                        "g": 255,
+                        "b": 0
+                    },
+                    "positionInBook": 21
+                },
+                {
+                    "code": "13-0716 TSX",
+                    "name": "Baked Flan",
+                    "rgb": {
+                        "r": 214,
+                        "g": 196,
+                        "b": 158
+                    },
+                    "positionInBook": 22
+                },
+                {
+                    "code": "13-0761 TSX",
+                    "name": "Spaghetti Squash",
+                    "rgb": {
+                        "r": 255,
+                        "g": 209,
+                        "b": 19
+                    },
+                    "positionInBook": 23
+                },
+                {
+                    "code": "13-0763 TSX",
+                    "name": "Owl's Eye",
+                    "rgb": {
+                        "r": 255,
+                        "g": 191,
+                        "b": 58
+                    },
+                    "positionInBook": 24
+                },
+                {
+                    "code": "13-1325 TSX",
+                    "name": "Alluring Apricot",
+                    "rgb": {
+                        "r": 255,
+                        "g": 192,
+                        "b": 160
+                    },
+                    "positionInBook": 25
+                },
+                {
+                    "code": "13-1805 TSX",
+                    "name": "Pink Gecko",
+                    "rgb": {
+                        "r": 220,
+                        "g": 200,
+                        "b": 198
+                    },
+                    "positionInBook": 26
+                },
+                {
+                    "code": "13-2820 TSX",
+                    "name": "Party Pink",
+                    "rgb": {
+                        "r": 235,
+                        "g": 184,
+                        "b": 219
+                    },
+                    "positionInBook": 27
+                },
+                {
+                    "code": "13-3512 TSX",
+                    "name": "Taffy Batter",
+                    "rgb": {
+                        "r": 210,
+                        "g": 178,
+                        "b": 213
+                    },
+                    "positionInBook": 28
+                },
+                {
+                    "code": "13-3700 TSX",
+                    "name": "Raw Silk",
+                    "rgb": {
+                        "r": 199,
+                        "g": 195,
+                        "b": 193
+                    },
+                    "positionInBook": 29
+                },
+                {
+                    "code": "13-4014 TSX",
+                    "name": "Whispy Blue",
+                    "rgb": {
+                        "r": 176,
+                        "g": 203,
+                        "b": 231
+                    },
+                    "positionInBook": 30
+                },
+                {
+                    "code": "13-4220 TSX",
+                    "name": "Arctic Paradise",
+                    "rgb": {
+                        "r": 161,
+                        "g": 205,
+                        "b": 236
+                    },
+                    "positionInBook": 31
+                },
+                {
+                    "code": "13-4320 TSX",
+                    "name": "Polar Wind",
+                    "rgb": {
+                        "r": 151,
+                        "g": 203,
+                        "b": 235
+                    },
+                    "positionInBook": 32
+                },
+                {
+                    "code": "13-4421 TSX",
+                    "name": "Castaway",
+                    "rgb": {
+                        "r": 145,
+                        "g": 213,
+                        "b": 237
+                    },
+                    "positionInBook": 33
+                },
+                {
+                    "code": "13-4504 TSX",
+                    "name": "Turquenite",
+                    "rgb": {
+                        "r": 201,
+                        "g": 201,
+                        "b": 198
+                    },
+                    "positionInBook": 34
+                },
+                {
+                    "code": "13-5329 TSX",
+                    "name": "Polynya",
+                    "rgb": {
+                        "r": 118,
+                        "g": 218,
+                        "b": 211
+                    },
+                    "positionInBook": 35
+                },
+                {
+                    "code": "13-6030 TSX",
+                    "name": "Carnival Glass",
+                    "rgb": {
+                        "r": 129,
+                        "g": 228,
+                        "b": 189
+                    },
+                    "positionInBook": 36
+                },
+                {
+                    "code": "14-0255 TSX",
+                    "name": "Kohlrabi",
+                    "rgb": {
+                        "r": 156,
+                        "g": 207,
+                        "b": 101
+                    },
+                    "positionInBook": 37
+                },
+                {
+                    "code": "14-0543 TSX",
+                    "name": "Spider Mum",
+                    "rgb": {
+                        "r": 192,
+                        "g": 198,
+                        "b": 115
+                    },
+                    "positionInBook": 38
+                },
+                {
+                    "code": "14-0926 TSX",
+                    "name": "Sunflower Seed",
+                    "rgb": {
+                        "r": 211,
+                        "g": 194,
+                        "b": 143
+                    },
+                    "positionInBook": 39
+                },
+                {
+                    "code": "14-0937 TSX",
+                    "name": "Banana Pudding",
+                    "rgb": {
+                        "r": 212,
+                        "g": 178,
+                        "b": 101
+                    },
+                    "positionInBook": 40
+                },
+                {
+                    "code": "14-0938 TSX",
+                    "name": "Ancient Grain",
+                    "rgb": {
+                        "r": 211,
+                        "g": 183,
+                        "b": 129
+                    },
+                    "positionInBook": 41
+                },
+                {
+                    "code": "14-1140 TSX",
+                    "name": "Iced Mango",
+                    "rgb": {
+                        "r": 255,
+                        "g": 173,
+                        "b": 79
+                    },
+                    "positionInBook": 42
+                },
+                {
+                    "code": "14-1229 TSX",
+                    "name": "Euphorbia",
+                    "rgb": {
+                        "r": 254,
+                        "g": 171,
+                        "b": 115
+                    },
+                    "positionInBook": 43
+                },
+                {
+                    "code": "14-1325 TSX",
+                    "name": "Peach Pie",
+                    "rgb": {
+                        "r": 255,
+                        "g": 168,
+                        "b": 139
+                    },
+                    "positionInBook": 44
+                },
+                {
+                    "code": "14-1519 TSX",
+                    "name": "Sugar Honey Glaze",
+                    "rgb": {
+                        "r": 219,
+                        "g": 175,
+                        "b": 170
+                    },
+                    "positionInBook": 45
+                },
+                {
+                    "code": "14-1906 TSX",
+                    "name": "Boto Dolphin",
+                    "rgb": {
+                        "r": 217,
+                        "g": 173,
+                        "b": 172
+                    },
+                    "positionInBook": 46
+                },
+                {
+                    "code": "14-2116 TSX",
+                    "name": "Fairy Wing",
+                    "rgb": {
+                        "r": 230,
+                        "g": 179,
+                        "b": 192
+                    },
+                    "positionInBook": 47
+                },
+                {
+                    "code": "14-2810 TSX",
+                    "name": "Charm Pink",
+                    "rgb": {
+                        "r": 222,
+                        "g": 187,
+                        "b": 201
+                    },
+                    "positionInBook": 48
+                },
+                {
+                    "code": "14-3005 TSX",
+                    "name": "Mauve Echo",
+                    "rgb": {
+                        "r": 208,
+                        "g": 189,
+                        "b": 194
+                    },
+                    "positionInBook": 49
+                },
+                {
+                    "code": "14-3606 TSX",
+                    "name": "Celestial Dusk",
+                    "rgb": {
+                        "r": 199,
+                        "g": 189,
+                        "b": 206
+                    },
+                    "positionInBook": 50
+                },
+                {
+                    "code": "14-3902 TSX",
+                    "name": "Dream of Cotton",
+                    "rgb": {
+                        "r": 192,
+                        "g": 178,
+                        "b": 190
+                    },
+                    "positionInBook": 51
+                },
+                {
+                    "code": "14-3921 TSX",
+                    "name": "Lacecap Hydrangea",
+                    "rgb": {
+                        "r": 150,
+                        "g": 179,
+                        "b": 222
+                    },
+                    "positionInBook": 52
+                },
+                {
+                    "code": "14-4003 TSX",
+                    "name": "Staple",
+                    "rgb": {
+                        "r": 184,
+                        "g": 180,
+                        "b": 185
+                    },
+                    "positionInBook": 53
+                },
+                {
+                    "code": "14-4204 TSX",
+                    "name": "Rare Coin",
+                    "rgb": {
+                        "r": 185,
+                        "g": 188,
+                        "b": 191
+                    },
+                    "positionInBook": 54
+                },
+                {
+                    "code": "14-4434 TSX",
+                    "name": "Aged Copper",
+                    "rgb": {
+                        "r": 92,
+                        "g": 200,
+                        "b": 215
+                    },
+                    "positionInBook": 55
+                },
+                {
+                    "code": "14-4703 TSX",
+                    "name": "Gray Day",
+                    "rgb": {
+                        "r": 179,
+                        "g": 179,
+                        "b": 176
+                    },
+                    "positionInBook": 56
+                },
+                {
+                    "code": "14-4803 TSX",
+                    "name": "Woven Rush",
+                    "rgb": {
+                        "r": 187,
+                        "g": 190,
+                        "b": 189
+                    },
+                    "positionInBook": 57
+                },
+                {
+                    "code": "15-0262 TSX",
+                    "name": "Lime Zest",
+                    "rgb": {
+                        "r": 123,
+                        "g": 183,
+                        "b": 61
+                    },
+                    "positionInBook": 58
+                },
+                {
+                    "code": "15-0722 TSX",
+                    "name": "Lioness",
+                    "rgb": {
+                        "r": 192,
+                        "g": 172,
+                        "b": 122
+                    },
+                    "positionInBook": 59
+                },
+                {
+                    "code": "15-1260 TSX",
+                    "name": "Fall Fantasy",
+                    "rgb": {
+                        "r": 255,
+                        "g": 144,
+                        "b": 38
+                    },
+                    "positionInBook": 60
+                },
+                {
+                    "code": "15-1351 TSX",
+                    "name": "Candied Yams",
+                    "rgb": {
+                        "r": 255,
+                        "g": 132,
+                        "b": 73
+                    },
+                    "positionInBook": 61
+                },
+                {
+                    "code": "15-1363 TSX",
+                    "name": "Live Wire",
+                    "rgb": {
+                        "r": 255,
+                        "g": 159,
+                        "b": 103
+                    },
+                    "positionInBook": 62
+                },
+                {
+                    "code": "15-1408 TSX",
+                    "name": "Junco",
+                    "rgb": {
+                        "r": 190,
+                        "g": 172,
+                        "b": 156
+                    },
+                    "positionInBook": 63
+                },
+                {
+                    "code": "15-1609 TSX",
+                    "name": "Pink Suede",
+                    "rgb": {
+                        "r": 190,
+                        "g": 157,
+                        "b": 155
+                    },
+                    "positionInBook": 64
+                },
+                {
+                    "code": "15-1619 TSX",
+                    "name": "Pressed Rose",
+                    "rgb": {
+                        "r": 216,
+                        "g": 156,
+                        "b": 154
+                    },
+                    "positionInBook": 65
+                },
+                {
+                    "code": "15-1863 TSX",
+                    "name": "Candy Kiss",
+                    "rgb": {
+                        "r": 255,
+                        "g": 86,
+                        "b": 150
+                    },
+                    "positionInBook": 66
+                },
+                {
+                    "code": "15-2615 TSX",
+                    "name": "Bashful Blush",
+                    "rgb": {
+                        "r": 210,
+                        "g": 166,
+                        "b": 174
+                    },
+                    "positionInBook": 67
+                },
+                {
+                    "code": "15-3407 TSX",
+                    "name": "La La Lovely",
+                    "rgb": {
+                        "r": 186,
+                        "g": 160,
+                        "b": 179
+                    },
+                    "positionInBook": 68
+                },
+                {
+                    "code": "15-3814 TSX",
+                    "name": "Mystic Violet",
+                    "rgb": {
+                        "r": 173,
+                        "g": 161,
+                        "b": 195
+                    },
+                    "positionInBook": 69
+                },
+                {
+                    "code": "15-3918 TSX",
+                    "name": "Baby Blue Jay",
+                    "rgb": {
+                        "r": 154,
+                        "g": 177,
+                        "b": 218
+                    },
+                    "positionInBook": 70
+                },
+                {
+                    "code": "15-4128 TSX",
+                    "name": "Comet Sea Star",
+                    "rgb": {
+                        "r": 114,
+                        "g": 170,
+                        "b": 216
+                    },
+                    "positionInBook": 71
+                },
+                {
+                    "code": "15-4321 TSX",
+                    "name": "Fountain Wish",
+                    "rgb": {
+                        "r": 122,
+                        "g": 179,
+                        "b": 202
+                    },
+                    "positionInBook": 72
+                },
+                {
+                    "code": "15-4333 TSX",
+                    "name": "Out of the Blue",
+                    "rgb": {
+                        "r": 0,
+                        "g": 164,
+                        "b": 204
+                    },
+                    "positionInBook": 73
+                },
+                {
+                    "code": "15-4535 TSX",
+                    "name": "Blue Blossom",
+                    "rgb": {
+                        "r": 45,
+                        "g": 168,
+                        "b": 216
+                    },
+                    "positionInBook": 74
+                },
+                {
+                    "code": "16-0102 TSX",
+                    "name": "Wolf Tail",
+                    "rgb": {
+                        "r": 149,
+                        "g": 147,
+                        "b": 147
+                    },
+                    "positionInBook": 75
+                },
+                {
+                    "code": "16-0163 TSX",
+                    "name": "Lounge Lizard",
+                    "rgb": {
+                        "r": 154,
+                        "g": 255,
+                        "b": 28
+                    },
+                    "positionInBook": 76
+                },
+                {
+                    "code": "16-0223 TSX",
+                    "name": "Bull Kelp",
+                    "rgb": {
+                        "r": 121,
+                        "g": 144,
+                        "b": 108
+                    },
+                    "positionInBook": 77
+                },
+                {
+                    "code": "16-1030 TSX",
+                    "name": "Peanut Butter",
+                    "rgb": {
+                        "r": 181,
+                        "g": 149,
+                        "b": 98
+                    },
+                    "positionInBook": 78
+                },
+                {
+                    "code": "16-1311 TSX",
+                    "name": "Coconut Husk",
+                    "rgb": {
+                        "r": 170,
+                        "g": 159,
+                        "b": 138
+                    },
+                    "positionInBook": 79
+                },
+                {
+                    "code": "16-1355 TSX",
+                    "name": "Orange Slice",
+                    "rgb": {
+                        "r": 254,
+                        "g": 109,
+                        "b": 0
+                    },
+                    "positionInBook": 80
+                },
+                {
+                    "code": "16-1404 TSX",
+                    "name": "River Rock",
+                    "rgb": {
+                        "r": 183,
+                        "g": 162,
+                        "b": 144
+                    },
+                    "positionInBook": 81
+                },
+                {
+                    "code": "16-1530 TSX",
+                    "name": "Coral Chic",
+                    "rgb": {
+                        "r": 255,
+                        "g": 130,
+                        "b": 112
+                    },
+                    "positionInBook": 82
+                },
+                {
+                    "code": "16-1534 TSX",
+                    "name": "Blush Beauty",
+                    "rgb": {
+                        "r": 229,
+                        "g": 120,
+                        "b": 104
+                    },
+                    "positionInBook": 83
+                },
+                {
+                    "code": "16-1634 TSX",
+                    "name": "Ranunculus",
+                    "rgb": {
+                        "r": 236,
+                        "g": 139,
+                        "b": 141
+                    },
+                    "positionInBook": 84
+                },
+                {
+                    "code": "16-1663 TSX",
+                    "name": "Siesta",
+                    "rgb": {
+                        "r": 255,
+                        "g": 106,
+                        "b": 110
+                    },
+                    "positionInBook": 85
+                },
+                {
+                    "code": "16-3209 TSX",
+                    "name": "Discreet Mauve ",
+                    "rgb": {
+                        "r": 169,
+                        "g": 140,
+                        "b": 155
+                    },
+                    "positionInBook": 86
+                },
+                {
+                    "code": "16-3902 TSX",
+                    "name": "Squirrel",
+                    "rgb": {
+                        "r": 161,
+                        "g": 156,
+                        "b": 156
+                    },
+                    "positionInBook": 87
+                },
+                {
+                    "code": "16-3936 TSX",
+                    "name": "Coastline Blue",
+                    "rgb": {
+                        "r": 125,
+                        "g": 149,
+                        "b": 206
+                    },
+                    "positionInBook": 88
+                },
+                {
+                    "code": "16-4002 TSX",
+                    "name": "Concrete",
+                    "rgb": {
+                        "r": 148,
+                        "g": 148,
+                        "b": 151
+                    },
+                    "positionInBook": 89
+                },
+                {
+                    "code": "16-4036 TSX",
+                    "name": "Blue Perennial",
+                    "rgb": {
+                        "r": 75,
+                        "g": 129,
+                        "b": 191
+                    },
+                    "positionInBook": 90
+                },
+                {
+                    "code": "16-4102 TSX",
+                    "name": "Trouser",
+                    "rgb": {
+                        "r": 158,
+                        "g": 159,
+                        "b": 162
+                    },
+                    "positionInBook": 91
+                },
+                {
+                    "code": "16-4126 TSX",
+                    "name": "Swimsuit",
+                    "rgb": {
+                        "r": 95,
+                        "g": 149,
+                        "b": 190
+                    },
+                    "positionInBook": 92
+                },
+                {
+                    "code": "16-4403 TSX",
+                    "name": "Skyscraper",
+                    "rgb": {
+                        "r": 145,
+                        "g": 145,
+                        "b": 147
+                    },
+                    "positionInBook": 93
+                },
+                {
+                    "code": "16-4704 TSX",
+                    "name": "Thundercloud",
+                    "rgb": {
+                        "r": 122,
+                        "g": 123,
+                        "b": 125
+                    },
+                    "positionInBook": 94
+                },
+                {
+                    "code": "16-5128 TSX",
+                    "name": "Jaded",
+                    "rgb": {
+                        "r": 82,
+                        "g": 172,
+                        "b": 170
+                    },
+                    "positionInBook": 95
+                },
+                {
+                    "code": "16-5616 TSX",
+                    "name": "Weathered Metal",
+                    "rgb": {
+                        "r": 107,
+                        "g": 155,
+                        "b": 163
+                    },
+                    "positionInBook": 96
+                },
+                {
+                    "code": "16-6264 TSX",
+                    "name": "Green Spring",
+                    "rgb": {
+                        "r": 0,
+                        "g": 169,
+                        "b": 60
+                    },
+                    "positionInBook": 97
+                },
+                {
+                    "code": "17-0104 TSX",
+                    "name": "Rooftop",
+                    "rgb": {
+                        "r": 123,
+                        "g": 118,
+                        "b": 122
+                    },
+                    "positionInBook": 98
+                },
+                {
+                    "code": "17-0112 TSX",
+                    "name": "Matte Green",
+                    "rgb": {
+                        "r": 126,
+                        "g": 135,
+                        "b": 114
+                    },
+                    "positionInBook": 99
+                },
+                {
+                    "code": "17-0542 TSX",
+                    "name": "Pepper Stem",
+                    "rgb": {
+                        "r": 141,
+                        "g": 148,
+                        "b": 64
+                    },
+                    "positionInBook": 100
+                },
+                {
+                    "code": "17-0606 TSX",
+                    "name": "Crusted Gravel",
+                    "rgb": {
+                        "r": 137,
+                        "g": 134,
+                        "b": 122
+                    },
+                    "positionInBook": 101
+                },
+                {
+                    "code": "17-1220 TSX",
+                    "name": "Affogato",
+                    "rgb": {
+                        "r": 168,
+                        "g": 139,
+                        "b": 112
+                    },
+                    "positionInBook": 102
+                },
+                {
+                    "code": "17-1323 TSX",
+                    "name": "Poulet Saute",
+                    "rgb": {
+                        "r": 155,
+                        "g": 101,
+                        "b": 76
+                    },
+                    "positionInBook": 103
+                },
+                {
+                    "code": "17-1363 TSX",
+                    "name": "Exuberant Orange",
+                    "rgb": {
+                        "r": 255,
+                        "g": 88,
+                        "b": 45
+                    },
+                    "positionInBook": 104
+                },
+                {
+                    "code": "17-1402 TSX",
+                    "name": "Newsprint",
+                    "rgb": {
+                        "r": 91,
+                        "g": 87,
+                        "b": 88
+                    },
+                    "positionInBook": 105
+                },
+                {
+                    "code": "17-1403 TSX",
+                    "name": "Gray Hawk",
+                    "rgb": {
+                        "r": 127,
+                        "g": 124,
+                        "b": 122
+                    },
+                    "positionInBook": 106
+                },
+                {
+                    "code": "17-1421 TSX",
+                    "name": "Deer",
+                    "rgb": {
+                        "r": 155,
+                        "g": 115,
+                        "b": 107
+                    },
+                    "positionInBook": 107
+                },
+                {
+                    "code": "17-1460 TSX",
+                    "name": "Firelight",
+                    "rgb": {
+                        "r": 236,
+                        "g": 78,
+                        "b": 70
+                    },
+                    "positionInBook": 108
+                },
+                {
+                    "code": "17-1541 TSX",
+                    "name": "Persimmon Glaze",
+                    "rgb": {
+                        "r": 223,
+                        "g": 87,
+                        "b": 80
+                    },
+                    "positionInBook": 109
+                },
+                {
+                    "code": "17-1561 TSX",
+                    "name": "Red Maple",
+                    "rgb": {
+                        "r": 208,
+                        "g": 45,
+                        "b": 35
+                    },
+                    "positionInBook": 110
+                },
+                {
+                    "code": "17-2255 TSX",
+                    "name": "Cheeky Pink",
+                    "rgb": {
+                        "r": 245,
+                        "g": 89,
+                        "b": 149
+                    },
+                    "positionInBook": 111
+                },
+                {
+                    "code": "17-2523 TSX",
+                    "name": "Rose Bouquet",
+                    "rgb": {
+                        "r": 194,
+                        "g": 119,
+                        "b": 148
+                    },
+                    "positionInBook": 112
+                },
+                {
+                    "code": "17-3316 TSX",
+                    "name": "Purple Jasper",
+                    "rgb": {
+                        "r": 153,
+                        "g": 116,
+                        "b": 143
+                    },
+                    "positionInBook": 113
+                },
+                {
+                    "code": "17-3763 TSX",
+                    "name": "Afterparty",
+                    "rgb": {
+                        "r": 111,
+                        "g": 84,
+                        "b": 161
+                    },
+                    "positionInBook": 114
+                },
+                {
+                    "code": "17-3805 TSX",
+                    "name": "Ube Pudding",
+                    "rgb": {
+                        "r": 150,
+                        "g": 141,
+                        "b": 158
+                    },
+                    "positionInBook": 115
+                },
+                {
+                    "code": "17-3818 TSX",
+                    "name": "Purple Yam",
+                    "rgb": {
+                        "r": 129,
+                        "g": 118,
+                        "b": 160
+                    },
+                    "positionInBook": 116
+                },
+                {
+                    "code": "17-3921 TSX",
+                    "name": "Faded Ticking",
+                    "rgb": {
+                        "r": 103,
+                        "g": 115,
+                        "b": 153
+                    },
+                    "positionInBook": 117
+                },
+                {
+                    "code": "17-3931 TSX",
+                    "name": "Sea Urchin",
+                    "rgb": {
+                        "r": 99,
+                        "g": 116,
+                        "b": 165
+                    },
+                    "positionInBook": 118
+                },
+                {
+                    "code": "17-4002 TSX",
+                    "name": "Mysterious",
+                    "rgb": {
+                        "r": 139,
+                        "g": 139,
+                        "b": 141
+                    },
+                    "positionInBook": 119
+                },
+                {
+                    "code": "17-4022 TSX",
+                    "name": "Top O The Morning",
+                    "rgb": {
+                        "r": 100,
+                        "g": 130,
+                        "b": 176
+                    },
+                    "positionInBook": 120
+                },
+                {
+                    "code": "17-4130 TSX",
+                    "name": "Diving Hole",
+                    "rgb": {
+                        "r": 53,
+                        "g": 116,
+                        "b": 165
+                    },
+                    "positionInBook": 121
+                },
+                {
+                    "code": "17-4303 TSX",
+                    "name": "Igneous Rock",
+                    "rgb": {
+                        "r": 146,
+                        "g": 151,
+                        "b": 155
+                    },
+                    "positionInBook": 122
+                },
+                {
+                    "code": "17-4563 TSX",
+                    "name": "Spring Break",
+                    "rgb": {
+                        "r": 0,
+                        "g": 141,
+                        "b": 204
+                    },
+                    "positionInBook": 123
+                },
+                {
+                    "code": "17-6156 TSX",
+                    "name": "Irish Jig",
+                    "rgb": {
+                        "r": 0,
+                        "g": 135,
+                        "b": 58
+                    },
+                    "positionInBook": 124
+                },
+                {
+                    "code": "18-0416 TSX",
+                    "name": "Terrarium Moss",
+                    "rgb": {
+                        "r": 97,
+                        "g": 98,
+                        "b": 71
+                    },
+                    "positionInBook": 125
+                },
+                {
+                    "code": "18-0425 TSX",
+                    "name": "Commander Green",
+                    "rgb": {
+                        "r": 107,
+                        "g": 109,
+                        "b": 64
+                    },
+                    "positionInBook": 126
+                },
+                {
+                    "code": "18-0614 TSX",
+                    "name": "Mountain Pass",
+                    "rgb": {
+                        "r": 118,
+                        "g": 107,
+                        "b": 79
+                    },
+                    "positionInBook": 127
+                },
+                {
+                    "code": "18-0818 TSX",
+                    "name": "Espresso Parfait",
+                    "rgb": {
+                        "r": 118,
+                        "g": 98,
+                        "b": 78
+                    },
+                    "positionInBook": 128
+                },
+                {
+                    "code": "18-0921 TSX",
+                    "name": "Groundhog",
+                    "rgb": {
+                        "r": 133,
+                        "g": 100,
+                        "b": 73
+                    },
+                    "positionInBook": 129
+                },
+                {
+                    "code": "18-1032 TSX",
+                    "name": "Crimini",
+                    "rgb": {
+                        "r": 138,
+                        "g": 108,
+                        "b": 86
+                    },
+                    "positionInBook": 130
+                },
+                {
+                    "code": "18-1123 TSX",
+                    "name": "Rum Caramel",
+                    "rgb": {
+                        "r": 137,
+                        "g": 101,
+                        "b": 78
+                    },
+                    "positionInBook": 131
+                },
+                {
+                    "code": "18-1446 TSX",
+                    "name": "Fire Finch",
+                    "rgb": {
+                        "r": 175,
+                        "g": 58,
+                        "b": 47
+                    },
+                    "positionInBook": 132
+                },
+                {
+                    "code": "18-1548 TSX",
+                    "name": "Winery",
+                    "rgb": {
+                        "r": 166,
+                        "g": 52,
+                        "b": 58
+                    },
+                    "positionInBook": 133
+                },
+                {
+                    "code": "18-1560 TSX",
+                    "name": "Mandevilla Red",
+                    "rgb": {
+                        "r": 218,
+                        "g": 58,
+                        "b": 44
+                    },
+                    "positionInBook": 134
+                },
+                {
+                    "code": "18-1624 TSX",
+                    "name": "Redwood Trail",
+                    "rgb": {
+                        "r": 173,
+                        "g": 105,
+                        "b": 107
+                    },
+                    "positionInBook": 135
+                },
+                {
+                    "code": "18-1645 TSX",
+                    "name": "Valiant Red",
+                    "rgb": {
+                        "r": 155,
+                        "g": 40,
+                        "b": 60
+                    },
+                    "positionInBook": 136
+                },
+                {
+                    "code": "18-1647 TSX",
+                    "name": "Rosella",
+                    "rgb": {
+                        "r": 198,
+                        "g": 39,
+                        "b": 52
+                    },
+                    "positionInBook": 137
+                },
+                {
+                    "code": "18-1650 TSX",
+                    "name": "Endangered",
+                    "rgb": {
+                        "r": 205,
+                        "g": 36,
+                        "b": 40
+                    },
+                    "positionInBook": 138
+                },
+                {
+                    "code": "18-1656 TSX",
+                    "name": "Fierce",
+                    "rgb": {
+                        "r": 197,
+                        "g": 31,
+                        "b": 49
+                    },
+                    "positionInBook": 139
+                },
+                {
+                    "code": "18-1726 TSX",
+                    "name": "Red Moscato",
+                    "rgb": {
+                        "r": 166,
+                        "g": 88,
+                        "b": 101
+                    },
+                    "positionInBook": 140
+                },
+                {
+                    "code": "18-1850 TSX",
+                    "name": "Red Lacquer",
+                    "rgb": {
+                        "r": 157,
+                        "g": 39,
+                        "b": 62
+                    },
+                    "positionInBook": 141
+                },
+                {
+                    "code": "18-1855 TSX",
+                    "name": "Berry Pinwheel",
+                    "rgb": {
+                        "r": 193,
+                        "g": 52,
+                        "b": 88
+                    },
+                    "positionInBook": 142
+                },
+                {
+                    "code": "18-1935 TSX",
+                    "name": "Red Velvet",
+                    "rgb": {
+                        "r": 127,
+                        "g": 42,
+                        "b": 60
+                    },
+                    "positionInBook": 143
+                },
+                {
+                    "code": "18-2054 TSX",
+                    "name": "Bossy Pink",
+                    "rgb": {
+                        "r": 206,
+                        "g": 61,
+                        "b": 102
+                    },
+                    "positionInBook": 144
+                },
+                {
+                    "code": "18-2350 TSX",
+                    "name": "Boudoir Red",
+                    "rgb": {
+                        "r": 177,
+                        "g": 39,
+                        "b": 99
+                    },
+                    "positionInBook": 145
+                },
+                {
+                    "code": "18-2534 TSX",
+                    "name": "Dried Hydrangea",
+                    "rgb": {
+                        "r": 153,
+                        "g": 68,
+                        "b": 101
+                    },
+                    "positionInBook": 146
+                },
+                {
+                    "code": "18-3616 TSX",
+                    "name": "Plum Smoothie",
+                    "rgb": {
+                        "r": 123,
+                        "g": 107,
+                        "b": 141
+                    },
+                    "positionInBook": 147
+                },
+                {
+                    "code": "18-3915 TSX",
+                    "name": "Admiral",
+                    "rgb": {
+                        "r": 85,
+                        "g": 92,
+                        "b": 131
+                    },
+                    "positionInBook": 148
+                },
+                {
+                    "code": "18-3934 TSX",
+                    "name": "Blueberry Pie",
+                    "rgb": {
+                        "r": 70,
+                        "g": 94,
+                        "b": 152
+                    },
+                    "positionInBook": 149
+                },
+                {
+                    "code": "18-4007 TSX",
+                    "name": "Gray Fluorite",
+                    "rgb": {
+                        "r": 108,
+                        "g": 106,
+                        "b": 111
+                    },
+                    "positionInBook": 150
+                },
+                {
+                    "code": "18-4031 TSX",
+                    "name": "Moody",
+                    "rgb": {
+                        "r": 67,
+                        "g": 106,
+                        "b": 159
+                    },
+                    "positionInBook": 151
+                },
+                {
+                    "code": "18-4063 TSX",
+                    "name": "Blue Tattoo",
+                    "rgb": {
+                        "r": 43,
+                        "g": 79,
+                        "b": 156
+                    },
+                    "positionInBook": 152
+                },
+                {
+                    "code": "18-4142 TSX",
+                    "name": "Egyptian Blue",
+                    "rgb": {
+                        "r": 0,
+                        "g": 96,
+                        "b": 174
+                    },
+                    "positionInBook": 153
+                },
+                {
+                    "code": "18-4147 TSX",
+                    "name": "Blue Sea Star",
+                    "rgb": {
+                        "r": 0,
+                        "g": 108,
+                        "b": 188
+                    },
+                    "positionInBook": 154
+                },
+                {
+                    "code": "18-4230 TSX",
+                    "name": "Blue Raspberry",
+                    "rgb": {
+                        "r": 39,
+                        "g": 124,
+                        "b": 164
+                    },
+                    "positionInBook": 155
+                },
+                {
+                    "code": "18-4331 TSX",
+                    "name": "Stunning Blue",
+                    "rgb": {
+                        "r": 0,
+                        "g": 116,
+                        "b": 149
+                    },
+                    "positionInBook": 156
+                },
+                {
+                    "code": "18-4333 TSX",
+                    "name": "Tumultuous Sea",
+                    "rgb": {
+                        "r": 0,
+                        "g": 111,
+                        "b": 136
+                    },
+                    "positionInBook": 157
+                },
+                {
+                    "code": "18-4403 TSX",
+                    "name": "Manatee",
+                    "rgb": {
+                        "r": 106,
+                        "g": 104,
+                        "b": 100
+                    },
+                    "positionInBook": 158
+                },
+                {
+                    "code": "18-5545 TSX",
+                    "name": "Tennis Court",
+                    "rgb": {
+                        "r": 0,
+                        "g": 133,
+                        "b": 102
+                    },
+                    "positionInBook": 159
+                },
+                {
+                    "code": "18-6032 TSX",
+                    "name": "Putting Green",
+                    "rgb": {
+                        "r": 10,
+                        "g": 114,
+                        "b": 72
+                    },
+                    "positionInBook": 160
+                },
+                {
+                    "code": "18-6329 TSX",
+                    "name": "Scallion",
+                    "rgb": {
+                        "r": 42,
+                        "g": 103,
+                        "b": 53
+                    },
+                    "positionInBook": 161
+                },
+                {
+                    "code": "19-0202 TSX",
+                    "name": "Stingray",
+                    "rgb": {
+                        "r": 87,
+                        "g": 87,
+                        "b": 92
+                    },
+                    "positionInBook": 162
+                },
+                {
+                    "code": "19-0204 TSX",
+                    "name": "Black Lava",
+                    "rgb": {
+                        "r": 80,
+                        "g": 76,
+                        "b": 80
+                    },
+                    "positionInBook": 163
+                },
+                {
+                    "code": "19-0308 TSX",
+                    "name": "Fly Fishing",
+                    "rgb": {
+                        "r": 84,
+                        "g": 90,
+                        "b": 83
+                    },
+                    "positionInBook": 164
+                },
+                {
+                    "code": "19-0310 TSX",
+                    "name": "Camping Green",
+                    "rgb": {
+                        "r": 68,
+                        "g": 83,
+                        "b": 72
+                    },
+                    "positionInBook": 165
+                },
+                {
+                    "code": "19-0504 TSX",
+                    "name": "Black Lichen",
+                    "rgb": {
+                        "r": 87,
+                        "g": 84,
+                        "b": 74
+                    },
+                    "positionInBook": 166
+                },
+                {
+                    "code": "19-0507 TSX",
+                    "name": "Industrial Green",
+                    "rgb": {
+                        "r": 97,
+                        "g": 92,
+                        "b": 80
+                    },
+                    "positionInBook": 167
+                },
+                {
+                    "code": "19-0805 TSX",
+                    "name": "Brown Granite",
+                    "rgb": {
+                        "r": 97,
+                        "g": 85,
+                        "b": 80
+                    },
+                    "positionInBook": 168
+                },
+                {
+                    "code": "19-0914 TSX",
+                    "name": "Fertile Soil",
+                    "rgb": {
+                        "r": 86,
+                        "g": 61,
+                        "b": 49
+                    },
+                    "positionInBook": 169
+                },
+                {
+                    "code": "19-1117 TSX",
+                    "name": "Chocolate Cremoso",
+                    "rgb": {
+                        "r": 105,
+                        "g": 70,
+                        "b": 52
+                    },
+                    "positionInBook": 170
+                },
+                {
+                    "code": "19-1206 TSX",
+                    "name": "Ristretto",
+                    "rgb": {
+                        "r": 63,
+                        "g": 50,
+                        "b": 48
+                    },
+                    "positionInBook": 171
+                },
+                {
+                    "code": "19-1410 TSX",
+                    "name": "Chocolate Drizzle",
+                    "rgb": {
+                        "r": 72,
+                        "g": 42,
+                        "b": 43
+                    },
+                    "positionInBook": 172
+                },
+                {
+                    "code": "19-1520 TSX",
+                    "name": "Goth Red",
+                    "rgb": {
+                        "r": 108,
+                        "g": 56,
+                        "b": 67
+                    },
+                    "positionInBook": 173
+                },
+                {
+                    "code": "19-1661 TSX",
+                    "name": "Vigilance ",
+                    "rgb": {
+                        "r": 184,
+                        "g": 37,
+                        "b": 50
+                    },
+                    "positionInBook": 174
+                },
+                {
+                    "code": "19-1730 TSX",
+                    "name": "Carriage Red",
+                    "rgb": {
+                        "r": 117,
+                        "g": 46,
+                        "b": 53
+                    },
+                    "positionInBook": 175
+                },
+                {
+                    "code": "19-1941 TSX",
+                    "name": "Raspberry Fudge",
+                    "rgb": {
+                        "r": 114,
+                        "g": 48,
+                        "b": 63
+                    },
+                    "positionInBook": 176
+                },
+                {
+                    "code": "19-2223 TSX",
+                    "name": "Plummed Depths ",
+                    "rgb": {
+                        "r": 103,
+                        "g": 45,
+                        "b": 75
+                    },
+                    "positionInBook": 177
+                },
+                {
+                    "code": "19-2537 TSX",
+                    "name": "Berry Wine",
+                    "rgb": {
+                        "r": 133,
+                        "g": 47,
+                        "b": 89
+                    },
+                    "positionInBook": 178
+                },
+                {
+                    "code": "19-3623 TSX",
+                    "name": "Tattoo",
+                    "rgb": {
+                        "r": 80,
+                        "g": 56,
+                        "b": 86
+                    },
+                    "positionInBook": 179
+                },
+                {
+                    "code": "19-3629 TSX",
+                    "name": "Purple Pak Choi",
+                    "rgb": {
+                        "r": 87,
+                        "g": 49,
+                        "b": 107
+                    },
+                    "positionInBook": 180
+                },
+                {
+                    "code": "19-3829 TSX",
+                    "name": "Violet Crescent",
+                    "rgb": {
+                        "r": 82,
+                        "g": 64,
+                        "b": 121
+                    },
+                    "positionInBook": 181
+                },
+                {
+                    "code": "19-3904 TSX",
+                    "name": "Char",
+                    "rgb": {
+                        "r": 41,
+                        "g": 41,
+                        "b": 46
+                    },
+                    "positionInBook": 182
+                },
+                {
+                    "code": "19-3931 TSX",
+                    "name": "Ink Blot",
+                    "rgb": {
+                        "r": 78,
+                        "g": 74,
+                        "b": 114
+                    },
+                    "positionInBook": 183
+                },
+                {
+                    "code": "19-3941 TSX",
+                    "name": "Midnight Sapphire",
+                    "rgb": {
+                        "r": 51,
+                        "g": 72,
+                        "b": 130
+                    },
+                    "positionInBook": 184
+                },
+                {
+                    "code": "19-3949 TSX",
+                    "name": "?Blackberry Jam",
+                    "rgb": {
+                        "r": 48,
+                        "g": 36,
+                        "b": 83
+                    },
+                    "positionInBook": 185
+                },
+                {
+                    "code": "19-4002 TSX",
+                    "name": "Basalt",
+                    "rgb": {
+                        "r": 84,
+                        "g": 80,
+                        "b": 88
+                    },
+                    "positionInBook": 186
+                },
+                {
+                    "code": "19-4032 TSX",
+                    "name": "Fathom Blue",
+                    "rgb": {
+                        "r": 57,
+                        "g": 53,
+                        "b": 82
+                    },
+                    "positionInBook": 187
+                },
+                {
+                    "code": "19-4036 TSX",
+                    "name": "Astral Night",
+                    "rgb": {
+                        "r": 53,
+                        "g": 53,
+                        "b": 84
+                    },
+                    "positionInBook": 188
+                },
+                {
+                    "code": "19-4040 TSX",
+                    "name": "Blue Pansy",
+                    "rgb": {
+                        "r": 31,
+                        "g": 55,
+                        "b": 95
+                    },
+                    "positionInBook": 189
+                },
+                {
+                    "code": "19-4107 TSX",
+                    "name": "Cavernous",
+                    "rgb": {
+                        "r": 38,
+                        "g": 39,
+                        "b": 42
+                    },
+                    "positionInBook": 190
+                },
+                {
+                    "code": "19-4113 TSX",
+                    "name": "Nautilus",
+                    "rgb": {
+                        "r": 33,
+                        "g": 56,
+                        "b": 78
+                    },
+                    "positionInBook": 191
+                },
+                {
+                    "code": "19-4119 TSX",
+                    "name": "Blueberry Pancake",
+                    "rgb": {
+                        "r": 30,
+                        "g": 63,
+                        "b": 99
+                    },
+                    "positionInBook": 192
+                },
+                {
+                    "code": "19-4123 TSX",
+                    "name": "Blue Grouper",
+                    "rgb": {
+                        "r": 38,
+                        "g": 75,
+                        "b": 114
+                    },
+                    "positionInBook": 193
+                },
+                {
+                    "code": "19-4135 TSX",
+                    "name": "Nobility",
+                    "rgb": {
+                        "r": 0,
+                        "g": 98,
+                        "b": 156
+                    },
+                    "positionInBook": 194
+                },
+                {
+                    "code": "19-4201 TSX",
+                    "name": "Tuxedo",
+                    "rgb": {
+                        "r": 37,
+                        "g": 38,
+                        "b": 41
+                    },
+                    "positionInBook": 195
+                },
+                {
+                    "code": "19-4221 TSX",
+                    "name": "Blue Tincture",
+                    "rgb": {
+                        "r": 40,
+                        "g": 91,
+                        "b": 125
+                    },
+                    "positionInBook": 196
+                },
+                {
+                    "code": "19-4231 TSX",
+                    "name": "Evening Azure",
+                    "rgb": {
+                        "r": 0,
+                        "g": 99,
+                        "b": 134
+                    },
+                    "positionInBook": 197
+                },
+                {
+                    "code": "19-4301 TSX",
+                    "name": "Blackout",
+                    "rgb": {
+                        "r": 39,
+                        "g": 39,
+                        "b": 43
+                    },
+                    "positionInBook": 198
+                },
+                {
+                    "code": "19-4304 TSX",
+                    "name": "Flagstone",
+                    "rgb": {
+                        "r": 115,
+                        "g": 122,
+                        "b": 130
+                    },
+                    "positionInBook": 199
+                },
+                {
+                    "code": "19-4312 TSX",
+                    "name": "Submerged",
+                    "rgb": {
+                        "r": 30,
+                        "g": 77,
+                        "b": 90
+                    },
+                    "positionInBook": 200
+                },
+                {
+                    "code": "19-5306 TSX",
+                    "name": "Nephrite",
+                    "rgb": {
+                        "r": 69,
+                        "g": 80,
+                        "b": 81
+                    },
+                    "positionInBook": 201
+                },
+                {
+                    "code": "19-5410 TSX",
+                    "name": "Melaleuca",
+                    "rgb": {
+                        "r": 51,
+                        "g": 70,
+                        "b": 63
+                    },
+                    "positionInBook": 202
+                }
+            ]
+        }
+    }
+}

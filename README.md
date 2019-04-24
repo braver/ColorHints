@@ -5,9 +5,19 @@ Inline color hints for Sublime Text
 
 Call up an inline color box displaying the color at the cursor(s). Live hints can be enabled always, never, or just in specific languages (via [scope selectors](https://www.sublimetext.com/docs/3/selectors.html)). The manually called hints will stick around until the file is edited.
 
-Currently the alpha (opacity) value is ignored because in these small samples, at low opacity, everything looks alike. 
+ColorHints currently understands:
+- hex
+- rgb(a)
+- hsl(a)
+- hwb(a)
+- css color names (e.g. "aliceblue" or "rebeccapurple")
+- pantone color codes (e.g. "16-1546 TCX" or "Yellow 012 C")
 
-Thanks to [@facelessuser](https://github.com/facelessuser) for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. 
+## Notes
+
+The alpha (opacity) value is not represented in the hint. In these small samples it's impossible to properly judge the opacity anyway, and it's usually more interesting to know the base color. 
+
+Thanks to [@facelessuser](https://github.com/facelessuser) for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. The Pantone reference files were dowloaded from [Pantone.com](https://www.pantone.com).
 
 ## Related color utilities
 
@@ -15,30 +25,3 @@ This plugin just does what it says on the box: display color hints. Other packag
 
 - Convert colors between RGB, Hex, HSL, etc: [Color Convert](https://packagecontrol.io/packages/Color%20Convert)
 - Integrate with OS native [Color picker](https://packagecontrol.io/packages/ColorPicker)
-
-## Test: Pantone colors of the year..
-
-2019 - Living Coral
-pantone 16-1546
-rgb(250,114,104)
-#FA7268
-
-2018 - Ultra Violet
-pantone 18-3838
-rgb(95,75,139)
-#5F4B8B
-
-2017 - Greenery
-pantone 15-0343
-rgb(136,176,75)
-#88B04B
-
-2016 - Rose Quartz
-pantone 13-1520
-rgb(247,202,201)
-#F7CAC9
-
-2016 - Serenity
-pantone 15-3919
-rgb(145,168,208)
-#91A8D0
