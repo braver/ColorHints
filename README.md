@@ -6,7 +6,7 @@ Inline color hints for Sublime Text
 Call up an inline color box displaying the color at the cursor(s). Live hints can be enabled always, never, or just in specific languages (via [scope selectors](https://www.sublimetext.com/docs/3/selectors.html)). The manually called hints will stick around until the file is edited.
 
 ColorHints currently understands:
-- hex
+- hex(a)
 - rgb(a)
 - hsl(a)
 - hwb(a)
