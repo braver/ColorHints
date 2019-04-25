@@ -4,6 +4,11 @@ RAL colors.
 A simple code to hex map of RAL colors.
 
 https://www.ral-farben.de
+
+TODO:
+- Effect: https://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-effect-colours.html
+- Design: https://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-design-colours.html
+- Plastics: https://www.ral-farben.de/content/anwendung-hilfe/all-ral-colours-names/overview-ral-plastics-colours.html
 """
 
 
