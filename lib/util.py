@@ -6,7 +6,7 @@ License: MIT
 """
 import re
 import decimal
-from . import csscolors, pantone
+from . import csscolors, pantone, ral
 from .rgba import RGBA, round_int, clamp
 
 FLOAT_TRIM_RE = re.compile(r'^(?P<keep>\d+)(?P<trash>\.0+|(?P<keep2>\.\d*[1-9])0+)$')
@@ -31,7 +31,8 @@ COMPLETE = r'''
     \b(?P<hwba>hwb\(\s*(?P<hwba_content>%(float)s\s*,\s*(?:%(percent)s\s*,\s*){2}(?:%(percent)s|%(float)s))\s*\)) |
     \b(?P<gray>gray\(\s*(?P<gray_content>%(float)s|%(percent)s)\s*\)) |
     \b(?P<graya>gray\(\s*(?P<graya_content>(?:%(float)s|%(percent)s)\s*,\s*(?:%(percent)s|%(float)s))\s*\)) |
-    \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})
+    \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})\b |
+    \b(?P<ral_code>RAL\s\d{4})\b
 ''' % COLOR_PARTS
 
 COLOR_NAMES = r'\b(?P<webcolors>%s)\b(?!\()' % '|'.join([name for name in csscolors.name2hex_map.keys()])
@@ -314,6 +315,15 @@ def translate_color(m, use_hex_argb=False, decode=False):
                 color = pantone.code2hex(m.group('pantone_code').decode('utf-8')).lower()
             else:
                 color = pantone.code2hex(m.group('pantone_code')).lower()
+        except Exception:
+            pass
+    elif m.group('ral_code'):
+        print(m.group('ral_code'))
+        try:
+            if decode:
+                color = ral.code2hex(m.group('ral_code').decode('utf-8')).lower()
+            else:
+                color = ral.code2hex(m.group('ral_code')).lower()
         except Exception:
             pass
     return color, alpha, alpha_dec
