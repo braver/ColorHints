@@ -7,7 +7,7 @@ TEMPLATE = '''
         <style>
             div.color-box {{
                 padding: .5em;
-                border: 1px solid #fff;
+                border: 1px solid var(--foreground);
                 background-color: {color};
             }}
         </style>
