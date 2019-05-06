@@ -50,6 +50,7 @@ def render_hints(view, phantom_set, rule):
     for sel in sels:
         if rule == 'always' or view.match_selector(sel.b, rule):
             color = get_cursor_color(view, sel)
+            print(color)
             if color[0] is not None:
                 line_end = view.line(sel).end()
                 region = sublime.Region(line_end, line_end)
