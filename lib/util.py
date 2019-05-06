@@ -77,7 +77,7 @@ def compress_hex(color):
 
 
 def alpha_dec_normalize(dec):
-    """Normailze a deciaml alpha value."""
+    """Normailze a decimal alpha value."""
 
     temp = float(dec)
     if temp < 0.0 or temp > 1.0:
