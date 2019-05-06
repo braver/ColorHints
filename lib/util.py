@@ -318,7 +318,6 @@ def translate_color(m, use_hex_argb=False, decode=False):
         except Exception:
             pass
     elif m.group('ral_code'):
-        print(m.group('ral_code'))
         try:
             if decode:
                 color = ral.code2hex(m.group('ral_code').decode('utf-8')).lower()
