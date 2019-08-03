@@ -6,11 +6,10 @@ License: MIT
 """
 import re
 import decimal
-from . import csscolors, pantone, ral, ansi_vt100
+from . import csscolors, pantone, ral
 from .rgba import RGBA, round_int, clamp
 
-FLOAT_TRIM_RE = re.compile(
-    r'^(?P<keep>\d+)(?P<trash>\.0+|(?P<keep2>\.\d*[1-9])0+)$')
+FLOAT_TRIM_RE = re.compile(r'^(?P<keep>\d+)(?P<trash>\.0+|(?P<keep2>\.\d*[1-9])0+)$')
 
 COLOR_PARTS = {
     "percent": r"[+\-]?(?:(?:\d*\.\d+)|\d+)%",
@@ -22,13 +21,9 @@ COMPLETE = r'''
     (?P<hex>(\#|0x)(?P<hex_content>[\dA-Fa-f]{6}))\b |
     (?P<hexa_compressed>(\#|0x)(?P<hexa_compressed_content>[\dA-Fa-f]{4}))\b |
     (?P<hex_compressed>(\#|0x)(?P<hex_compressed_content>[\dA-Fa-f]{3}))\b |
-    \b(?P<rgb>rgb\(\s*(?P<rgb_content>
-        (?:%(float)s\s*,\s*){2}%(float)s |
-        (?:%(percent)s\s*,\s*){2}%(percent)s
-    )\s*\)) |
+    \b(?P<rgb>rgb\(\s*(?P<rgb_content>(?:%(float)s\s*,\s*){2}%(float)s | (?:%(percent)s\s*,\s*){2}%(percent)s)\s*\)) |
     \b(?P<rgba>rgba\(\s*(?P<rgba_content>
-        (?:%(float)s\s*,\s*){3}(?:%(percent)s|%(float)s) |
-        (?:%(percent)s\s*,\s*){3}(?:%(percent)s|%(float)s)
+        (?:%(float)s\s*,\s*){3}(?:%(percent)s|%(float)s) | (?:%(percent)s\s*,\s*){3}(?:%(percent)s|%(float)s)
     )\s*\)) |
     \b(?P<hsl>hsl\(\s*(?P<hsl_content>%(float)s\s*,\s*%(percent)s\s*,\s*%(percent)s)\s*\)) |
     \b(?P<hsla>hsla\(\s*(?P<hsla_content>%(float)s\s*,\s*(?:%(percent)s\s*,\s*){2}(?:%(percent)s|%(float)s))\s*\)) |
@@ -37,8 +32,7 @@ COMPLETE = r'''
     \b(?P<gray>gray\(\s*(?P<gray_content>%(float)s|%(percent)s)\s*\)) |
     \b(?P<graya>gray\(\s*(?P<graya_content>(?:%(float)s|%(percent)s)\s*,\s*(?:%(percent)s|%(float)s))\s*\)) |
     \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})\b |
-    \b(?P<ral_code>RAL\s\d{4})\b |
-    \\(e|033|x1B)\[(?P<ansi_vt100>(1;)?(3|4|10)[0-9])(;[0-9]+)*)m
+    \b(?P<ral_code>RAL\s\d{4})\b
 ''' % COLOR_PARTS
 
 COLOR_NAMES = r'\b(?P<webcolors>%s)\b(?!\()' % '|'.join([name for name in csscolors.name2hex_map.keys()])
@@ -329,15 +323,6 @@ def translate_color(m, use_hex_argb=False, decode=False):
                 color = ral.code2hex(m.group('ral_code').decode('utf-8')).lower()
             else:
                 color = ral.code2hex(m.group('ral_code')).lower()
-        except Exception:
-            pass
-    elif m.group('ansi_vt100'):
-        try:
-            print('ansi rulez')
-            if decode:
-                color = ansi_vt100.code2hex(m.group('ansi_vt100').decode('utf-8')).lower()
-            else:
-                color = ansi_vt100.code2hex(m.group('ansi_vt100')).lower()
         except Exception:
             pass
     return color, alpha, alpha_dec
