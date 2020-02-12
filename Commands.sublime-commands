@@ -1,9 +1,9 @@
 [
-	{
-		"caption": "Color Hint",
-		"command": "manual_color_hint",
-		"args": { }
-	},
+    {
+        "caption": "Color Hint",
+        "command": "manual_color_hint",
+        "args": { }
+    },
     {
         "caption": "Preferences: ColorHints Settings",
         "command": "edit_settings", "args":
