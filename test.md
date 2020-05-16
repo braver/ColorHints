@@ -1,5 +1,10 @@
 ## Test: Pantone colors of the year..
 
+2020 - Classic Blue
+pantone 19-4052 TCX
+rgb(15,76,129)
+#0F4C81
+
 2019 - Living Coral
 pantone 16-1546 TCX
 rgb(250,114,104)
