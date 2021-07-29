@@ -27,3 +27,9 @@ This plugin just does what it says on the box: display color hints. Other packag
 
 - Convert colors between RGB, Hex, HSL, etc: [Color Convert](https://packagecontrol.io/packages/Color%20Convert)
 - Integrate with OS native [Color picker](https://packagecontrol.io/packages/ColorPicker)
+
+## Buy me a coffee 
+
+☕️👌🏻
+
+Please feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) towards the coffee that keeps this labour of love running. It's much appreciated!
