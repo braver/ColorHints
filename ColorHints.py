@@ -26,6 +26,8 @@ def get_cursor_color(view, region):
     color = None
     alpha = None
     alpha_dec = None
+    settings = sublime.load_settings('ColorHints.sublime-settings')
+    argb = settings.get('argb_hex', False)
     point = region.begin()
     visible = view.visible_region()
     start = point - 50
@@ -38,7 +40,7 @@ def get_cursor_color(view, region):
     ref = point - start
     for m in util.COLOR_RE.finditer(bfr):
         if ref >= m.start(0) and ref < m.end(0):
-            color, alpha, alpha_dec = util.translate_color(m, True)
+            color, alpha, alpha_dec = util.translate_color(m, argb)
             break
     return color, alpha, alpha_dec
 

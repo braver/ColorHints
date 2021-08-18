@@ -7,13 +7,15 @@ Call up an inline color box displaying the color at the cursor(s). Live hints ca
 
 ColorHints currently understands:
 
-- hex(a)
+- hex(a)<sup>*</sup>
 - rgb(a)
 - hsl(a)
 - hwb(a)
 - css color names (e.g. "aliceblue" or "rebeccapurple")
 - Pantone color codes (e.g. "16-1546 TCX" or "Yellow 012 C")
 - RAL classic color codes (e.g. "RAL 6034")
+
+<sup>*</sup>) Set the "argb_hex" preference to `true` for (a)hex, ie. argb in hex values.
 
 ## Notes
 

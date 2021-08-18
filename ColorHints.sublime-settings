@@ -3,5 +3,8 @@
     // - always
     // - never
     // - in scope selector, eg 'source.css, source.scss, source.sass, source.less, text.html'
-    "live_hints": "always"
+    "live_hints": "always",
+
+    // Interpret hex values with an alpha channel as argb (not rgba)
+    "argb_hex": false
 }
