@@ -48,7 +48,7 @@ class RGBA(object):
             return int(alpha, 16) if alpha else 0xFF
 
         m = self.color_pattern.match(s)
-        assert(m is not None)
+        assert (m is not None)
         if m.group(1):
             return int(s[1:3], 16), int(s[3:5], 16), int(s[5:7], 16), alpha_channel(m.group(2))
         else:
@@ -96,10 +96,10 @@ class RGBA(object):
         return clamp(round_int(0.299 * self.r + 0.587 * self.g + 0.114 * self.b), 0, 255)
 
     def get_true_luminance(self):
-        """Get true liminance."""
+        """Get true luminance."""
 
-        l = self.tohls()[1]
-        return clamp(round_int(l * 255.0), 0, 255)
+        lum = self.tohls()[1]
+        return clamp(round_int(lum * 255.0), 0, 255)
 
     def alpha(self, factor):
         """Adjust alpha."""
@@ -125,8 +125,8 @@ class RGBA(object):
         """Get true luminance."""
 
         h, l, s = self.tohls()
-        l = clamp(l + factor - 1.0, 0.0, 1.0)
-        self.fromhls(h, l, s)
+        lum = clamp(l + factor - 1.0, 0.0, 1.0)
+        self.fromhls(h, lum, s)
 
     def tohsv(self):
         """Convert to HSV color format."""
@@ -146,10 +146,10 @@ class RGBA(object):
 
         return rgb_to_hls(self.r * RGB_CHANNEL_SCALE, self.g * RGB_CHANNEL_SCALE, self.b * RGB_CHANNEL_SCALE)
 
-    def fromhls(self, h, l, s):
+    def fromhls(self, h, lum, s):
         """Convert to RGB from HSL."""
 
-        r, g, b = hls_to_rgb(h, l, s)
+        r, g, b = hls_to_rgb(h, lum, s)
         self.r = clamp(round_int(r * 255.0), 0, 255)
         self.g = clamp(round_int(g * 255.0), 0, 255)
         self.b = clamp(round_int(b * 255.0), 0, 255)

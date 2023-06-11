@@ -31,7 +31,7 @@ COMPLETE = r'''
     \b(?P<hwba>hwb\(\s*(?P<hwba_content>%(float)s\s*,\s*(?:%(percent)s\s*,\s*){2}(?:%(percent)s|%(float)s))\s*\)) |
     \b(?P<gray>gray\(\s*(?P<gray_content>%(float)s|%(percent)s)\s*\)) |
     \b(?P<graya>gray\(\s*(?P<graya_content>(?:%(float)s|%(percent)s)\s*,\s*(?:%(percent)s|%(float)s))\s*\)) |
-    \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})\b |
+    \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})\b |  # noqa: E501
     \b(?P<ral_code>RAL\s\d{4})\b
 ''' % COLOR_PARTS
 
@@ -248,8 +248,8 @@ def translate_color(m, use_hex_argb=False, decode=False):
             hue = hue % 360.0
         h = hue / 360.0
         s = clamp(float(content[1].strip('%')), 0.0, 100.0) / 100.0
-        l = clamp(float(content[2].strip('%')), 0.0, 100.0) / 100.0
-        rgba.fromhls(h, l, s)
+        lum = clamp(float(content[2].strip('%')), 0.0, 100.0) / 100.0
+        rgba.fromhls(h, lum, s)
         color = rgba.get_rgb()
     elif m.group('hsla'):
         if decode:
@@ -262,8 +262,8 @@ def translate_color(m, use_hex_argb=False, decode=False):
             hue = hue % 360.0
         h = hue / 360.0
         s = clamp(float(content[1].strip('%')), 0.0, 100.0) / 100.0
-        l = clamp(float(content[2].strip('%')), 0.0, 100.0) / 100.0
-        rgba.fromhls(h, l, s)
+        lum = clamp(float(content[2].strip('%')), 0.0, 100.0) / 100.0
+        rgba.fromhls(h, lum, s)
         color = rgba.get_rgb()
         if content[3].endswith('%'):
             alpha, alpha_dec = alpha_percent_normalize(content[3])
