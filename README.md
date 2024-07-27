@@ -13,7 +13,7 @@ ColorHints currently understands:
 - hwb(a)
 - css color names (e.g. "aliceblue" or "rebeccapurple")
 - Pantone color codes (e.g. "16-1546 TCX" or "Yellow 012 C")
-- RAL classic color codes (e.g. "RAL 6034")
+- RAL color codes (e.g. "RAL 6034", "RAL 010 80 10", "RAL 230-M")
 
 <sup>*</sup>) Set the "argb_hex" preference to `true` for (a)hex, ie. argb in hex values.
 
