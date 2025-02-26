@@ -1,5 +1,11 @@
 ## Test: Pantone colors of the year..
 
+2025 - Mocha Mousse
+pantone 17-1230 TCX
+rgb(164 119 100)
+hsl(18 26% 52%)
+#a47764
+
 2020 - Classic Blue
 pantone 19-4052 TCX
 rgb(15,76,129)
