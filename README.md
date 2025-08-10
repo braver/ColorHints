@@ -21,7 +21,7 @@ ColorHints currently understands:
 
 The alpha (opacity) value is not represented in the hint. In these small samples it's impossible to properly judge the opacity anyway, and it's usually more interesting to know the base color. 
 
-Thanks to [@facelessuser](https://github.com/facelessuser) for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. The Pantone reference files were dowloaded from [Pantone.com](https://www.pantone.com).
+Thanks to [Isaac Muse](https://github.com/facelessuser) for the [utils and libraries](https://github.com/facelessuser/ColorHelper) that make this possible. The Pantone reference files were downloaded from [Pantone.com](https://www.pantone.com).
 
 ## Related color utilities
 
