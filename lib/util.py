@@ -29,8 +29,8 @@ COMPLETE = r'''
     )\s*\)) |
     \b(?P<hsl>hsl\(\s*(?P<hsl_content>%(deg)s\s*(,\s*)?%(percent_opt)s\s*(,\s*)?%(percent_opt)s)\s*\)) |
     \b(?P<hsla>hsla\(\s*(?P<hsla_content>%(deg)s\s*(,\s*)?(?:%(percent_opt)s\s*(,\s*)?){2}(?:%(percent)s|%(float)s))\s*\)) |
-    \b(?P<hwb>hwb\(\s*(?P<hwb_content>%(float)s\s*(,\s*)?%(percent)s\s*(,\s*)?%(percent)s)\s*\)) |
-    \b(?P<hwba>hwb\(\s*(?P<hwba_content>%(float)s\s*(,\s*)?(?:%(percent)s\s*(,\s*)?){2}(?:%(percent)s|%(float)s))\s*\)) |
+    \b(?P<hwb>hwb\(\s*(?P<hwb_content>%(deg)s\s*(,\s*)?%(percent)s\s*(,\s*)?%(percent)s)\s*\)) |
+    \b(?P<hwba>hwb\(\s*(?P<hwba_content>%(deg)s\s*(,\s*)?(?:%(percent)s\s*(,\s*)?){2}(?:%(percent)s|%(float)s))\s*\)) |
     \b(?P<gray>gray\(\s*(?P<gray_content>%(float)s|%(percent)s)\s*\)) |
     \b(?P<graya>gray\(\s*(?P<graya_content>(?:%(float)s|%(percent)s)\s*(,\s*)?(?:%(percent)s|%(float)s))\s*\)) |
     \b(?P<pantone_code>((\d{2}-)?\d{3,5}\s|(black|blue|bright red|cool gray|dark blue|green|magenta|medium purple|orange|pink|process blue|purple|red|reflex blue|rhodamine red|rose gold|silver|violet|warm gray|warm red|yellow)\s(\d{1,5}\s)?|p\s\d{1,3}-\d{1,2}\s)[a-z]{1,3})\b |  # noqa: E501
@@ -98,6 +98,8 @@ def alpha_percent_normalize(perc):
 
 
 def decode_and_split(data, decode=False):
+    data = data.replace('deg', '')  # remove the optional deg unit
+
     """Optionally decode and then split over , or space."""
     if decode:
         data = data.decode('utf-8')
@@ -250,8 +252,7 @@ def translate_color(m, use_hex_argb=False, decode=False):
             alpha, alpha_dec = alpha_dec_normalize(content[1])
 
     elif m.group('hsl'):
-        content = m.group('hsl_content').replace('deg', '')  # remove the optional deg unit
-        content = decode_and_split(content, decode)
+        content = decode_and_split(m.group('hsl_content'), decode)
         try:
             rgba = RGBA()
             hue = float(content[0])
@@ -266,8 +267,7 @@ def translate_color(m, use_hex_argb=False, decode=False):
             color = None
 
     elif m.group('hsla'):
-        content = m.group('hsl_content').replace('deg', '')  # remove the optional deg unit
-        content = decode_and_split(content, decode)
+        content = decode_and_split(m.group('hsla_content'), decode)
         try:
             rgba = RGBA()
             hue = float(content[0])
