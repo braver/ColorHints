@@ -27,8 +27,8 @@ Thanks to [Isaac Muse](https://github.com/facelessuser) for the [utils and libra
 
 This plugin just does what it says on the box: display color hints. Other packages do other nifty things with colors:
 
-- Convert colors between RGB, Hex, HSL, etc: [Color Convert](https://packagecontrol.io/packages/Color%20Convert)
-- Integrate with OS native [Color picker](https://packagecontrol.io/packages/ColorPicker)
+- Convert colors between RGB, Hex, HSL, etc: [ColorConverter](https://packages.sublimetext.com/packages/ColorConverter)
+- Integrate with OS native [color picker](https://packages.sublimetext.com/packages/ColorPicker)
 
 ## Buy me a coffee 
 
